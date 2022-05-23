@@ -1,0 +1,71 @@
+{
+    "message": {
+        "app": {
+            "geolocation" : {
+                "request" : "Necesito GPS para funcionar",
+                "description": "Esta aplicación utiliza tu geoposición para mostrar los puntos de interés cercanos, nada más. Por favor, dame permiso :)",
+                "no": "No, gracias",
+                "yes": "Sí, está bien"
+            }
+        },
+        "tabs": [
+            {
+                "title": "Lista",
+                "icon": "\ue3b6"
+            },
+            {
+                "title": "Mapa",
+                "icon": "\ue55b"
+            },
+            {
+                "title": "Acerca",
+                "icon": "\ue88e"
+            }
+        ],
+        "cards": {
+            "approx_km": "{distance} km desde aquí",
+            "approx_m": "{distance} m desde aquí",
+            "no_items": "No más datos"
+        },
+        "main": {
+            "loading": "Cargando puntos de interés..."
+        },
+        "detail": {
+            "approx_km": "Aprox. a {distance} km desde aquí",
+            "approx_m": "Aprox. a {distance} m desde aquí",
+            "acknowledgements": "Muchas gracias a nuestros colaboradores:",
+            "wikidata": "Wikidata",
+            "freebase": "Freebase",
+            "more_info": "Más información:",
+            "loading_map": "Cargando mapa...",
+            "share": {
+                "body": "Eh, echa un ojo a {itemName} en {appName}. Es acerca de {description} {url}",
+                "error": "No he podido compartir el contenido :(" 
+            },
+            "buttons": {
+                "share": "Compartir",
+                "feedback": "Mejóralo"
+            }
+        },
+        "about": {
+            "install" : {
+                "title": "¿Quieres seguir usando la app?",
+                "button": "Instalar App",
+                "description": "Instala un icono de acceso directo:",
+                "dialog": {
+                    "question": "¿Quiéres instalar la app para usarla en otro momento?",
+                    "success": "Bien! Icono creado",
+                    "error": "No he podido crear el icono ({error})",
+                    "already": "Ya existe el icono en tu dispositivo"
+                } 
+            },
+            "acknowledments": "Gracias a:",
+            "acks": [
+                "Mapas por © OpenStreetMap"
+            ],
+            "release": "Versión del contenido:",
+            "involved": "Colabora con el proyecto!",
+            "repository": "Más detalles sobre el proyecto"
+        }
+    }
+}

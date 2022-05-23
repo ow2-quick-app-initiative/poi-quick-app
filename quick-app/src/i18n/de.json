@@ -1,0 +1,71 @@
+{
+    "message": {
+        "app": {
+            "geolocation" : {
+                "request" : "Ich brauche Geolokalisierung, um zu arbeiten",
+                "description": "Diese App verwendet Ihre Geolocation, um die Kunstwerke in der Nähe zu zeigen, sonst nichts. Bitte gewähren Sie es :)",
+                "no": "Nein, danke",
+                "yes": "Ja, es geht mir gut"
+            }
+        },
+        "tabs": [
+            {
+                "title": "Bilder",
+                "icon": "\ue3b6"
+            },
+            {
+                "title": "Karte",
+                "icon": "\ue55b"
+            },
+            {
+                "title": "Über",
+                "icon": "\ue88e"
+            }
+        ],
+        "cards": {
+            "approx_km": "{distance} km von hier",
+            "approx_m": "{distance} m von hier",
+            "no_items": "Keine Daten mehr"
+        },
+        "main": {
+            "loading": "Kunstwerke werden geladen..."
+        },
+        "detail": {
+            "approx_km": "Ungefähr at {distance} km von hier",
+            "approx_m": "Ungefähr {distance} m von hier",
+            "acknowledgements": "Ein großes Dankeschön an unsere Mitwirkenden:",
+            "wikidata": "Wikidata",
+            "freebase": "Freebase",
+            "more_info": "Weitere Informationen:",
+            "loading_map": "Karte wird geladen...",
+            "share": {
+                "body": "Hey, überprüfen Sie {itemName} auf {appName}. Es geht um {description} {url}",
+                "error": "Ich konnte den Inhalt nicht teilen :("
+            },
+            "buttons": {
+                "share": "Teilen",
+                "feedback": "Verbessern"
+            }
+        },
+        "about": {
+            "install" : {
+                "title": "Verwenden Sie diese App weiter?",
+                "button": "App install",
+                "description": "Installieren Sie das Icon auf Ihrem Homescreen:",
+                "dialog": {
+                    "question": "Möchten Sie die App installieren, um sie später zu verwenden?",
+                    "success": "Ja! Startbildschirm-Symbol erstellt",
+                    "error": "Ich konnte die Verknüpfung ({error}) nicht erstellen",
+                    "already": "Homescreen-Symbol bereits erstellt"
+                } 
+            },
+            "acknowledments": "Danke an:",
+            "acks": [
+                "Maps by © OpenStreetMap"
+            ],
+            "release": "Inhaltsfreigabe:",
+            "involved": "Beteiligen Sie sich jetzt!",
+            "repository": "Mehr Details zu diesem Projekt"
+        }
+    }
+}
