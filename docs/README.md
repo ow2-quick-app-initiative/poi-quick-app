@@ -12,7 +12,7 @@ Currently, we have the following proofs of concept:
 
 Some screenshots:
 
-<img src="./be/leuven/images/screenshots.png" alt="Screenshots of the Leuven application" width="100%">
+<img src="https://pbest.eu/cultural-heritage-quick-app/be/leuven/images/screenshots.png" alt="Screenshots of the Leuven application" width="100%">
 
 ## Start a new project for your town
 
