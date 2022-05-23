@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema",
-    "$id": "https://espinr.github.io/local-cultural-heritage/schema.json",
+    "$id": "https://pbesteu.github.io/cultural-heritage-quick-app/schema.json",
     "title": "Schema of the config and database file",
     "type": "object",
     "default": {},
@@ -62,7 +62,7 @@
                     "pattern": "^(http|https)://.+$",
                     "default": "",
                     "examples": [
-                        "https://espinr.github.io/local-cultural-heritage/be/leuven/data.json"
+                        "https://pbesteu.github.io/cultural-heritage-quick-app/be/leuven/data.json"
                     ]
                 },
                 "matomo_base_url": {
@@ -142,7 +142,7 @@
                                     "pattern": "^(http|https)://.+$",
                                     "default": "",
                                     "examples": [
-                                        "https://github.com/espinr/local-cultural-heritage/tree/main/docs/sample/"
+                                        "https://github.com/pbesteu/poi-quick-app/tree/main/docs/sample/"
                                     ]
                                 },
                                 "text_info": {
@@ -175,7 +175,7 @@
                                     "pattern": "^(http|https)://.+$",
                                     "default": "",
                                     "examples": [
-                                        "https://espinr.github.io/local-cultural-heritage/be/leuven/#contributors"
+                                        "https://pbesteu.github.io/cultural-heritage-quick-app/be/leuven/#contributors"
                                     ]
                                 },
                                 "issue_url": {
@@ -184,7 +184,7 @@
                                     "pattern": "^(http|https)://.+$",
                                     "default": "",
                                     "examples": [
-                                        "https://github.com/espinr/local-cultural-heritage/issues/new?labels=country/city&template=update_request.md&title=Update+Request"
+                                        "https://github.com/pbesteu/poi-quick-app/issues/new?labels=country/city&template=update_request.md&title=Update+Request"
                                     ]
                                 }                                
                             }
@@ -281,9 +281,9 @@
                                             "type": "string",                     
                                             "pattern": "^(http|https)://.+$",
                                             "examples": [
-                                                "https://espinr.github.io/local-cultural-heritage/be/leuven/images/60men.jpg",
-                                                "https://espinr.github.io/local-cultural-heritage/be/leuven/images/60men_2.jpg",
-                                                "https://espinr.github.io/local-cultural-heritage/be/leuven/images/abraham.jpg"
+                                                "https://pbesteu.github.io/cultural-heritage-quick-app/be/leuven/images/60men.jpg",
+                                                "https://pbesteu.github.io/cultural-heritage-quick-app/be/leuven/images/60men_2.jpg",
+                                                "https://pbesteu.github.io/cultural-heritage-quick-app/be/leuven/images/abraham.jpg"
                                             ]
                                         }
                                     },

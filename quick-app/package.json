@@ -2,7 +2,7 @@
   "name": "org.example.myquickapp",
   "version": "0.0.1",
   "license": "MIT",
-  "repository": "https://github.com/espinr/local-cultural-heritage",
+  "repository": "https://github.com/pbesteu/poi-quick-app",
   "description": "Sample quick app for Cultural Heritage promotion",
   "scripts": {
     "fa-build": "node node_modules/webpack/bin/webpack.js --progress --config ./node_modules/fa-toolkit/webpack.config.js",
@@ -11,7 +11,6 @@
   },
   "devDependencies": {
     "geolib": "^3.3.3",
-    "cross-env": "^7.0.2",
-    "fa-toolkit": "file:fa-toolkit-12.1.1-Stable.300.tgz"
+    "cross-env": "^7.0.2"
   }
 }
