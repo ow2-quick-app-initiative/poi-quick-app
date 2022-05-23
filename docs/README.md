@@ -33,6 +33,7 @@ These apps are based on open data and automatic processing of the data. The comm
 
 The app doesn't collect any personal data, so relax. We won't sell anything.
 
+The quick app may perform a call to a [Matomo instance](https://en.wikipedia.org/wiki/Matomo_(software)) to measure its performance, but no personal data is shared. You can just [check the code](https://github.com/pbesteu/poi-quick-app/blob/0e30a81f203796156ecb29b30437fb18f9f83309/quick-app/src/app.ux#L222) that generates a random identifier.  
 
 ## Developers
 
