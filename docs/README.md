@@ -39,7 +39,7 @@ The quick app may perform a call to a [Matomo instance](https://en.wikipedia.org
 
 > Do you want to contribute to the code?
 
-Just fork the repository and start sending your contributions. The code of the quick app is in the [`/quick-app`](../quick-app) folder of the repository. 
+Just fork the repository and start sending your contributions. The code of the quick app is in the [`/quick-app`](https://github.com/pbesteu/poi-quick-app/tree/main/quick-app) folder of the repository. 
 
 Feel free to [raise issues](https://github.com/pbesteu/poi-quick-app/issues/new) on the code.
 
