@@ -21,19 +21,19 @@ Some screenshots:
 	* [Online local heritage promotion](#Onlinelocalheritagepromotion)
 * [The project](#Theproject)
 * [The methodology](#Themethodology)
-	* [Step 1: clone and configure the project](#Step1:cloneandconfiguretheproject)
-	* [Step 2: populate the database](#Step2:populatethedatabase)
+	* [Step 1: clone and configure the project](#cloneandconfiguretheproject)
+	* [Step 2: populate the database](#populatethedatabase)
 		* [How to submit new images](#Howtosubmitnewimages)
 		* [How to update the database](#Howtoupdatethedatabase)
 	* [How to configure and handle public update proposals](#Howtoconfigureandhandlepublicupdateproposals)
 	* [Step 3: publish the database](#Step3:publishthedatabase)
 		* [Database and pictures on GitHub pages](#DatabaseandpicturesonGitHubpages)
-	* [Step 4: Customize the app](#Step4:Customizetheapp)
+	* [Step 4: Customize the app](#customizetheapp)
 		* [Load the project in the IDE](#LoadtheprojectintheIDE)
 		* [Select a name for your app](#Selectanameforyourapp)
 		* [Change the image](#Changetheimage)
 		* [Localize the user interface](#Localizetheuserinterface)
-	* [Step 5: run the app](#Step5:runtheapp)
+	* [Step 5: run the app](#runtheapp)
 		* [Install the dependencies](#Installthedependencies)
 		* [Compile and run the app](#Compileandruntheapp)
 * [License](#License)
@@ -86,7 +86,7 @@ The methodology, based on the principles [listed above](#the-project), can be ap
 <img src="https://pbest.eu/poi-quick-app/sample/methodology.jpg" alt="Methodology of Local Heritage Quick App project" width="100%">
 
 
-### <a name='Step1:cloneandconfiguretheproject'></a>Step 1: clone and configure the project
+### <a name='cloneandconfiguretheproject'></a>Step 1: clone and configure the project
 
 1. Access the [git repository](https://github.com/pbesteu/poi-quick-app). 
 2. Fork the project into your projects (`Reuse this template`).
@@ -96,7 +96,7 @@ You might access the public database and documentation under the `/docs` directo
 The application code (a quick app) is under the `/quick-app` directory.
 
 
-### <a name='Step2:populatethedatabase'></a>Step 2: populate the database
+### <a name='populatethedatabase'></a>Step 2: populate the database
 
 Note that all the documents and directories within `/docs` will be exposed and accessible from the Web. 
 
@@ -302,7 +302,7 @@ For instance:
 
 Note that the application will append the name of the point of interest at the end of the URL, so the GitHub issue will contain the full name of the point of interest in the title.
 
-### <a name='Step3:publishthedatabase'></a>Step 3: publish the database
+### <a name='publishthedatabase'></a>Step 3: publish the database
 
 #### <a name='DatabaseandpicturesonGitHubpages'></a>Database and pictures on GitHub pages
 
@@ -332,7 +332,7 @@ The open source project includes the CI actions. Once you have access to these C
 5. In project's `Settings` > `Pages` you can see the public URL of your site with the template of the documentation. 
 
 
-### <a name='Step4:Customizetheapp'></a>Step 4: Customize the app
+### <a name='customizetheapp'></a>Step 4: customize the app
 
 The final outcome is an app, implemented as a [Quick App for Android](https://quick-app-initiative.ow2.io/editorials/2022-06-23-what-is-a-quick-app/), with a service for locals and tourists, with basic and intuitive functionality. The app uses contextual information collected by the device, like the precise user's location, and serves the data and images through an appealing and straightforward user interface.
 
@@ -374,7 +374,7 @@ Just overwrite `/common/images/logo.png` (flexible dimensions) and `/common/imag
 
 #### Load the database 
 
-Overwrite the first version of the database generated in the [step 2](#step-2-populate-the-database) over `/common/json/data.json`.
+Overwrite the first version of the database generated in the [step 2](#populatethedatabase) over `/common/json/data.json`.
 
 This database file will be used in case the app is offline. 
 
@@ -406,7 +406,7 @@ Example of the `en.json` document:
         // ...
 ```
 
-### <a name='Step5:runtheapp'></a>Step 5: run the app
+### <a name='runtheapp'></a>Step 5: run the app
 
 #### <a name='Installthedependencies'></a>Install the dependencies
 
