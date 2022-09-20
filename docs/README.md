@@ -16,39 +16,39 @@ Some screenshots:
 
 
 <!-- vscode-markdown-toc -->
-* 1. [Background](#Background)
-	* 1.1. [We all are proud of our heritage](#Weallareproudofourheritage)
-	* 1.2. [Online local heritage promotion](#Onlinelocalheritagepromotion)
-* 2. [The project](#Theproject)
-* 3. [The methodology](#Themethodology)
-	* 3.1. [Step 1: clone and configure the project](#Step1:cloneandconfiguretheproject)
-	* 3.2. [Step 2: populate the database](#Step2:populatethedatabase)
-		* 3.2.1. [How to submit new images](#Howtosubmitnewimages)
-		* 3.2.2. [How to update the database](#Howtoupdatethedatabase)
-	* 3.3. [How to configure and handle public update proposals](#Howtoconfigureandhandlepublicupdateproposals)
-	* 3.4. [Step 3: publish the database](#Step3:publishthedatabase)
-		* 3.4.1. [Database and pictures on GitHub pages](#DatabaseandpicturesonGitHubpages)
-	* 3.5. [Step 4: Customize the app](#Step4:Customizetheapp)
-		* 3.5.1. [Load the project in the IDE](#LoadtheprojectintheIDE)
-		* 3.5.2. [Select a name for your app](#Selectanameforyourapp)
-		* 3.5.3. [Change the image](#Changetheimage)
-		* 3.5.4. [Localize the user interface](#Localizetheuserinterface)
-	* 3.6. [Step 5: run the app](#Step5:runtheapp)
-		* 3.6.1. [Install the dependencies](#Installthedependencies)
-		* 3.6.2. [Compile and run the app](#Compileandruntheapp)
-* 4. [License](#License)
-* 5. [Privacy](#Privacy)
-* 6. [Developers](#Developers)
+* [Background](#Background)
+	* [We all are proud of our heritage](#Weallareproudofourheritage)
+	* [Online local heritage promotion](#Onlinelocalheritagepromotion)
+* [The project](#Theproject)
+* [The methodology](#Themethodology)
+	* [Step 1: clone and configure the project](#Step1:cloneandconfiguretheproject)
+	* [Step 2: populate the database](#Step2:populatethedatabase)
+		* [How to submit new images](#Howtosubmitnewimages)
+		* [How to update the database](#Howtoupdatethedatabase)
+	* [How to configure and handle public update proposals](#Howtoconfigureandhandlepublicupdateproposals)
+	* [Step 3: publish the database](#Step3:publishthedatabase)
+		* [Database and pictures on GitHub pages](#DatabaseandpicturesonGitHubpages)
+	* [Step 4: Customize the app](#Step4:Customizetheapp)
+		* [Load the project in the IDE](#LoadtheprojectintheIDE)
+		* [Select a name for your app](#Selectanameforyourapp)
+		* [Change the image](#Changetheimage)
+		* [Localize the user interface](#Localizetheuserinterface)
+	* [Step 5: run the app](#Step5:runtheapp)
+		* [Install the dependencies](#Installthedependencies)
+		* [Compile and run the app](#Compileandruntheapp)
+* [License](#License)
+* [Privacy](#Privacy)
+* [Developers](#Developers)
 
 <!-- vscode-markdown-toc-config
-	numbering=true
+	numbering=false
 	autoSave=true
 	/vscode-markdown-toc-config -->
 <!-- /vscode-markdown-toc -->
 
-##  1. <a name='Background'></a>Background
+## <a name='Background'></a>Background
 
-###  1.1. <a name='Weallareproudofourheritage'></a>We all are proud of our heritage 
+### <a name='Weallareproudofourheritage'></a>We all are proud of our heritage 
 
 Every single town has its singularities (and oddities). Some might be famous for their [castles](https://iheartslovakia.com/castles-in-slovakia/), gardens, gastronomy, winemaking, or [unique museums](https://planomagazine.com/planos-past-the-cockroach-hall-of-fame-museum/). 
 
@@ -56,13 +56,13 @@ Old and modern towns have a fascinating history behind them. Of course, municipa
 
 Complementary to this, citizens can tell old stories and anecdotes that shaped the place's history. Older people might spend days digging into the details of their younghood and how things have changed. Families have ancestors' memories, supported by pictures from a more human and less academic perspective. Why not include this expert and passional knowledge to help understand the history?
 
-###  1.2. <a name='Onlinelocalheritagepromotion'></a>Online local heritage promotion
+### <a name='Onlinelocalheritagepromotion'></a>Online local heritage promotion
 
 Information and communications technology is a town's ally to promote heritage resources and help citizens and visitors understand and learn about these exciting stories. Large cities with enough resources have promotional touristic resources like online and offline guides highlighting their precious assets. Also, small towns and regions may offer tourists something, but sometimes this is challenging due to the lack of skills and resources. 
 
 Having this global challenge in mind, we have created a methodology and open source set of tools for anyone interested in revealing their hometown's most famous assets and hidden gems. You only need a list of exciting points of interest.
 
-##  2. <a name='Theproject'></a>The project
+## <a name='Theproject'></a>The project
 
 The Local Heritage Quick App project is a set of tools and a methodology to generate apps and services for towns to promote their local art, culture, history, or whatever they are famous for. 
 
@@ -79,14 +79,14 @@ This initiative enables individuals to clone an open-source repository with all 
 You can find all the details of the Local Heritage Quick App project in [its GitHub repository](https://github.com/pbesteu/poi-quick-app). It comprises three main parts: the __methodology__, the __database__, and the __app__.  
 
 
-##  3. <a name='Themethodology'></a>The methodology
+## <a name='Themethodology'></a>The methodology
 
 The methodology, based on the principles [listed above](#the-project), can be applied to any scenario by anyone without limits. The procedure, templates, and code included in the git repository aim to develop proofs of concepts that could evolve and be promoted to production environments.
 
 <img src="https://pbest.eu/poi-quick-app/sample/methodology.jpg" alt="Methodology of Local Heritage Quick App project" width="100%">
 
 
-###  3.1. <a name='Step1:cloneandconfiguretheproject'></a>Step 1: clone and configure the project
+### <a name='Step1:cloneandconfiguretheproject'></a>Step 1: clone and configure the project
 
 1. Access the [git repository](https://github.com/pbesteu/poi-quick-app). 
 2. Fork the project into your projects (`Reuse this template`).
@@ -96,7 +96,7 @@ You might access the public database and documentation under the `/docs` directo
 The application code (a quick app) is under the `/quick-app` directory.
 
 
-###  3.2. <a name='Step2:populatethedatabase'></a>Step 2: populate the database
+### <a name='Step2:populatethedatabase'></a>Step 2: populate the database
 
 Note that all the documents and directories within `/docs` will be exposed and accessible from the Web. 
 
@@ -113,7 +113,7 @@ Once you have the final version, pull the content to the git repository (and rep
 
 You might want to introduce a moderation process for the maintenance, reviewing the pull requests and changes over the content. Also you can use issues and comments to open the participation to users that are not familiar with GitHub.
 
-####  3.2.1. <a name='Howtosubmitnewimages'></a>How to submit new images
+#### <a name='Howtosubmitnewimages'></a>How to submit new images
 
 The images are in the `./images` directory. 
 
@@ -124,7 +124,7 @@ If you have new images to add, just upload your new ones in the folder.
 Please, use the identifier of the point of interest you are referring to (see attribute `id` of the [Point of Interest](#points-of-interest)).
 
 
-####  3.2.2. <a name='Howtoupdatethedatabase'></a>How to update the database
+#### <a name='Howtoupdatethedatabase'></a>How to update the database
 
 The database is in the JSON file named `data.json` (`/sample/data.json`). Initially, you have an empty file you can use to quick start the project.
 
@@ -280,7 +280,7 @@ The PoIs are the main items of the database, described in the `poi` attribute as
 - `attributions` (`array` of `string`). List of texts with the names of the contributors to the content or images of this item, if any.
 
 
-###  3.3. <a name='Howtoconfigureandhandlepublicupdateproposals'></a>How to configure and handle public update proposals 
+### <a name='Howtoconfigureandhandlepublicupdateproposals'></a>How to configure and handle public update proposals 
 
 User's feedback is handled through GitHub issues guaranteeing transparent communication and proper attribution. Issues might be classified using tags to indicate the project whose belong to. 
 
@@ -302,9 +302,9 @@ For instance:
 
 Note that the application will append the name of the point of interest at the end of the URL, so the GitHub issue will contain the full name of the point of interest in the title.
 
-###  3.4. <a name='Step3:publishthedatabase'></a>Step 3: publish the database
+### <a name='Step3:publishthedatabase'></a>Step 3: publish the database
 
-####  3.4.1. <a name='DatabaseandpicturesonGitHubpages'></a>Database and pictures on GitHub pages
+#### <a name='DatabaseandpicturesonGitHubpages'></a>Database and pictures on GitHub pages
 
 The project's content (i.e., general information, database, and images) is served from an HTTP server using GitHub pages. The application will check if the internal version of the database is older than the version published on the Web. Thus, all the updates on the database must be made in the public git repository to keep an up-to-date version available from the applications that will visualize the content. 
 
@@ -332,7 +332,7 @@ The open source project includes the CI actions. Once you have access to these C
 5. In project's `Settings` > `Pages` you can see the public URL of your site with the template of the documentation. 
 
 
-###  3.5. <a name='Step4:Customizetheapp'></a>Step 4: Customize the app
+### <a name='Step4:Customizetheapp'></a>Step 4: Customize the app
 
 The final outcome is an app, implemented as a [Quick App for Android](https://quick-app-initiative.ow2.io/editorials/2022-06-23-what-is-a-quick-app/), with a service for locals and tourists, with basic and intuitive functionality. The app uses contextual information collected by the device, like the precise user's location, and serves the data and images through an appealing and straightforward user interface.
 
@@ -340,12 +340,12 @@ The `/quick-app` directory contains the code of the quick app.
 
 Feel free to tweak the code of the quick app (see the [developer´s documentation](https://quick-app-initiative.ow2.io/developers/)), but the application is ready to run, so you only need to configure it:
 
-####  3.5.1. <a name='LoadtheprojectintheIDE'></a>Load the project in the IDE
+#### <a name='LoadtheprojectintheIDE'></a>Load the project in the IDE
 
 Load the quick app project (`/quick-app/src/`) in your favorite editor ([Huawei Quick App IDE](https://developer.huawei.com/consumer/en/quickApp-ide), [Generic Quick App IDE](https://www.quickapp.cn/docCenter/IDEPublicity)).
 
 
-####  3.5.2. <a name='Selectanameforyourapp'></a>Select a name for your app
+#### <a name='Selectanameforyourapp'></a>Select a name for your app
 
 Choose a name for your app and change it in the `.manifest.json`´s `name` member.
 
@@ -366,7 +366,7 @@ Example of manifest by default:
 Read more details [about the Quick App manifest](https://quick-app-initiative.ow2.io/developers/guide/manifest.html).
 
 
-####  3.5.3. <a name='Changetheimage'></a>Change the image 
+#### <a name='Changetheimage'></a>Change the image 
 
 Rewrite the app main logo and the icon with your own images.
 
@@ -378,7 +378,7 @@ Overwrite the first version of the database generated in the [step 2](#step-2-po
 
 This database file will be used in case the app is offline. 
 
-####  3.5.4. <a name='Localizetheuserinterface'></a>Localize the user interface
+#### <a name='Localizetheuserinterface'></a>Localize the user interface
 
 The application offers a multilingual user interface and content adapted to the requirements of the specific implementations. The internationalization resources are decoupled from the app logic to facilitate the localization of resources into additional languages.
 
@@ -406,9 +406,9 @@ Example of the `en.json` document:
         // ...
 ```
 
-###  3.6. <a name='Step5:runtheapp'></a>Step 5: run the app
+### <a name='Step5:runtheapp'></a>Step 5: run the app
 
-####  3.6.1. <a name='Installthedependencies'></a>Install the dependencies
+#### <a name='Installthedependencies'></a>Install the dependencies
 
 The app requires the external `geolib` library for geographic functions (e.g., `getDistance(from, to)`)
 
@@ -418,26 +418,26 @@ Other libraries may be added to the `package.json` document in the root director
 npm install
 ```
 
-####  3.6.2. <a name='Compileandruntheapp'></a>Compile and run the app
+#### <a name='Compileandruntheapp'></a>Compile and run the app
 
 Test the app within the IDE.
 
 You also can generate the RPK package and distribute it. 
 
 
-##  4. <a name='License'></a>License
+## <a name='License'></a>License
 
 This project's documentation, content, and data folders are licensed under a [CC-BY license](./LICENSE).
 
 All other code in this repository is licensed under the [MIT license](./LICENSE-CODE).
 
-##  5. <a name='Privacy'></a>Privacy
+## <a name='Privacy'></a>Privacy
 
 These apps are based on open data and automatic processing of the data. The community's content is enriched and curated, so it's available to anyone who wants to get involved. Local experts are welcome to refine the definitions, names, and pictures and add new points of interest to the app.
 
 The app doesn't collect any personal data. The quick app may perform a call to a [Matomo instance](https://en.wikipedia.org/wiki/Matomo_(software)) to measure its performance, but no personal data is shared. You can just [check the code](https://github.com/pbesteu/poi-quick-app/blob/0e30a81f203796156ecb29b30437fb18f9f83309/quick-app/src/app.ux#L222) that generates a random identifier.  
 
-##  6. <a name='Developers'></a>Developers
+## <a name='Developers'></a>Developers
 
 > Do you want to contribute to the original code?
 
