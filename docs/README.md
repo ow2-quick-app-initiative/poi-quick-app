@@ -6,7 +6,7 @@ The Local Heritage Quick App project provides a methodology and a set of tools t
 
 The [Comic Book Route quick app](#Examplesofimplementations) was made with following this methods and code templates in less than one hour.
 
-<p style="text-align:center"><img src="https://pbest.eu/comic-book-route-quick-app/bxl/images/screenshots.gif" alt="Screenshots of the Comic Book Route Quick App" title="Brussels Comic Book Route Quick App" height="400"></p>
+<img src="https://pbest.eu/comic-book-route-quick-app/bxl/images/screenshots.gif" alt="Screenshots of the Comic Book Route Quick App" title="Brussels Comic Book Route Quick App" height="500">
 
 Learn more details about the methodology and how to use the templates in the following sections.
 
