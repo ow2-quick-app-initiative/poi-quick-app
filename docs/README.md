@@ -1,6 +1,6 @@
 # Local Heritage Quick App
 
-The Local Heritage Quick App project provides a methodology and a set of tools to generate apps and services for towns that want to promote their local art, culture, history, or whatever they are famous for. 
+The Local Heritage Quick App project provides a methodology and a set of tools for towns to promote their most precious assets, enabling citizens and institutions to launch new projects focused on local art, culture, history, nature, or whatever is engaging in a place. 
 
 > It's free, open-data, open-source, and crowdsourced
 
@@ -57,7 +57,7 @@ Complementary to this, citizens can tell old stories and anecdotes that shaped t
 
 Information and communications technology is a town's ally to promote heritage resources and help citizens and visitors understand and learn about these exciting stories. Large cities with enough resources have promotional touristic resources like online and offline guides highlighting their precious assets. Also, small towns and regions may offer tourists something, but sometimes this is challenging due to the lack of skills and resources. 
 
-Having this global challenge in mind, we have created a methodology and open source set of tools for anyone interested in revealing their hometown's most famous assets and hidden gems. You only need a list of exciting points of interest.
+Having this global challenge in mind, we have created a methodology and open source set of tools for anyone interested in revealing their hometown's most famous assets and hidden gems. Heritage could be referred not only to culture and arts but also to __agricultural traditions__, __architecture__, __natural ecosystems__, __geographical resources__, __science__, __sports__, and many other fields. You only need a list of exciting __points of interest__.
 
 ## <a name='Theproject'></a>The project
 
