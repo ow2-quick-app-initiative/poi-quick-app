@@ -327,7 +327,7 @@ The open source project includes the CI actions. Once you have access to these C
 4. You can verify that the CI Action works properly (`Project's Actions`) and re-run the jobs with failure (after that, they must be in green)
 5. In project's `Settings` > `Pages` you can see the public URL of your site with the template of the documentation. 
 
-<img src="https://pbest.eu/poi-quick-app/sample/images/methodology-ci.jpg" alt="Summary of the workflow of the CI actions" width="100%">
+<img src="https://pbest.eu/poi-quick-app/sample/images/methodology-ci.jpg" alt="Summary of the workflow of the CI actions" width="70%">
 
 #### <a name='Howtoconfigureandhandlepublicupdateproposals'></a>How to configure and handle public update proposals 
 
@@ -398,7 +398,7 @@ Overwrite the first version of the database generated in the [step 2](#Step2.pop
 
 This database file will be used in case the app is offline.
 
-<img src="https://pbest.eu/poi-quick-app/sample/images/methodology-app-maintenance.jpg" alt="How the app works in summary">
+<img src="https://pbest.eu/poi-quick-app/sample/images/methodology-app-maintenance.jpg" alt="How the app works in summary" width="70%">
 
 #### <a name='Localizetheuserinterface'></a>Localize the user interface
 
