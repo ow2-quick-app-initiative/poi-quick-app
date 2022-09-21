@@ -101,7 +101,7 @@ The application code (a quick app) is under the `/quick-app` directory.
 
 See the complete structure of the project in the following picture.
 
-<img src="https://pbest.eu/poi-quick-app/sample/images/methodology-repo.jpg" alt="File structure of the repository" height="800">
+<img src="https://pbest.eu/poi-quick-app/sample/images/methodology-repo.jpg" alt="File structure of the repository" height="500">
 
 
 ### <a name='Step2.populatethedatabase'></a>Step 2. populate the database
