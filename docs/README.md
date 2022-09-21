@@ -20,10 +20,10 @@ Learn more details about the methodology and how to use the templates in the fol
 	* [Step 2. populate the database](#Step2.populatethedatabase)
 		* [How to submit new images](#Howtosubmitnewimages)
 		* [How to update the database](#Howtoupdatethedatabase)
-	* [How to configure and handle public update proposals](#Howtoconfigureandhandlepublicupdateproposals)
 		* [Real example using Open Data and Linked Data](#RealexampleusingOpenDataandLinkedData)
 	* [Step 3. publish the database](#Step3.publishthedatabase)
 		* [Database and pictures on GitHub pages](#DatabaseandpicturesonGitHubpages)
+		* [How to configure and handle public update proposals](#Howtoconfigureandhandlepublicupdateproposals)
 	* [Step 4. customize the app](#Step4.customizetheapp)
 		* [Load the project in the IDE](#LoadtheprojectintheIDE)
 		* [Select a name for your app](#Selectanameforyourapp)
@@ -288,28 +288,6 @@ The PoIs are the main items of the database, described in the `poi` attribute as
 - `attributions` (`array` of `string`). List of texts with the names of the contributors to the content or images of this item, if any.
 
 
-### <a name='Howtoconfigureandhandlepublicupdateproposals'></a>How to configure and handle public update proposals 
-
-User's feedback is handled through GitHub issues guaranteeing transparent communication and proper attribution. Issues might be classified using tags to indicate the project whose belong to. 
-
-The title of the issues should contain the same name or identifier of the point of interest to avoid misunderstandings.   
-
-You also can create an issue template to have homogeneous format (see [.github/ISSUE_TEMPLATE/update_request.md](../.github/ISSUE_TEMPLATE/update_request.md)) and use it for new issues. 
-
-In the [app configuration](#app-configuration) we configure the template URL for the issues for the project. If you want to handle issues by language, you can specify different tags or templates according to your needs. 
-
-For instance:
-
-```js
-{
-    //...
-    "issue_url": "https://github.com/pbesteu/poi-quick-app/issues/new?labels=uk/london&template=update_request.md&title=Update+request+of+"
-    //...
-}
-```
-
-Note that the application will append the name of the point of interest at the end of the URL, so the GitHub issue will contain the full name of the point of interest in the title.
-
 #### <a name='RealexampleusingOpenDataandLinkedData'></a>Real example using Open Data and Linked Data
 
 The [Brussels Comic Book Route Quick App](https://github.com/pbesteu/comic-book-route-quick-app) was made through this methodology and templates. The database is based on a dataset by the [BXL Open Data](https://opendata.brussels.be/page/home/) initiative.
@@ -350,6 +328,28 @@ The open source project includes the CI actions. Once you have access to these C
 5. In project's `Settings` > `Pages` you can see the public URL of your site with the template of the documentation. 
 
 <img src="https://pbest.eu/poi-quick-app/sample/images/methodology-ci.jpg" alt="Summary of the workflow of the CI actions" width="100%">
+
+#### <a name='Howtoconfigureandhandlepublicupdateproposals'></a>How to configure and handle public update proposals 
+
+User's feedback is handled through GitHub issues guaranteeing transparent communication and proper attribution. Issues might be classified using tags to indicate the project whose belong to. 
+
+The title of the issues should contain the same name or identifier of the point of interest to avoid misunderstandings.   
+
+You also can create an issue template to have homogeneous format (see [.github/ISSUE_TEMPLATE/update_request.md](../.github/ISSUE_TEMPLATE/update_request.md)) and use it for new issues. 
+
+In the [app configuration](#app-configuration) we configure the template URL for the issues for the project. If you want to handle issues by language, you can specify different tags or templates according to your needs. 
+
+For instance:
+
+```js
+{
+    //...
+    "issue_url": "https://github.com/pbesteu/poi-quick-app/issues/new?labels=uk/london&template=update_request.md&title=Update+request+of+"
+    //...
+}
+```
+
+Note that the application will append the name of the point of interest at the end of the URL, so the GitHub issue will contain the full name of the point of interest in the title.
 
 
 ### <a name='Step4.customizetheapp'></a>Step 4. customize the app
