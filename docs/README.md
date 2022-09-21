@@ -36,6 +36,7 @@ Learn more details about the methodology and how to use the templates in the fol
 * [License](#License)
 * [Privacy](#Privacy)
 * [Developers](#Developers)
+* [Acknowledgements](#acknowledgements)
 
 <!-- vscode-markdown-toc-config
 	numbering=false
@@ -476,3 +477,16 @@ The app doesn't collect any personal data. The quick app may perform a call to a
 Just fork the repository and push your contributions. The code of the quick app is in the [`/quick-app`](https://github.com/pbesteu/poi-quick-app/tree/main/quick-app) folder of the repository. 
 
 Also, feel free to [raise issues](https://github.com/pbesteu/poi-quick-app/issues/new) on the code.
+
+## Acknowledgements
+
+Pictograms used in the images:
+
+- Cloud by Aya Sofya from NounProject.com
+- App by Adrien Coquet from NounProject.com
+- Folder by HideMaru from NounProject.com
+- Jpg by Ilham Fitrotul Hayat from NounProject.com
+- Json by Md Moniruzzaman from NounProject.com
+- Csv by Ilham Fitrotul Hayat from NounProject.com
+- User by Benny Chaw from NounProject.com
+- Terminal by Hare Krishna from NounProject.com
