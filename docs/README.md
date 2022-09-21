@@ -4,7 +4,7 @@ The Local Heritage Quick App project provides a methodology and a set of tools t
 
 > It's free, open-data, open-source, and crowdsourced
 
-The [Comic Book Route quick app](#Examplesofimplementations) was made with following this methods and code templates in less than one hour:
+The [Comic Book Route quick app](#Examplesofimplementations) was made with following this methods and code templates in less than one hour.
 
 <p style="text-align:center"><img src="https://pbest.eu/comic-book-route-quick-app/bxl/images/screenshots.gif" alt="Screenshots of the Comic Book Route Quick App" title="Brussels Comic Book Route Quick App" height="400"></p>
 
@@ -88,7 +88,7 @@ The main steps of the process are described below:
 * [Step 4. customize the app](#Step4.customizetheapp), changing colors, icons and descriptions;
 * [Step 5. run (and publish) the app](#Step5.runandpublishtheapp).
 
-<img src="https://pbest.eu/poi-quick-app/sample/methodology-all.jpg" alt="Methodology of Local Heritage Quick App project" width="100%">
+<img src="https://pbest.eu/poi-quick-app/sample/images/methodology-all.jpg" alt="Methodology of Local Heritage Quick App project" width="100%">
 
 ### <a name='Step1.cloneandconfiguretheproject'></a>Step 1. clone and configure the project
 
@@ -101,7 +101,7 @@ The application code (a quick app) is under the `/quick-app` directory.
 
 See the complete structure of the project in the following picture.
 
-<img src="https://pbest.eu/poi-quick-app/sample/images/methodology-repo.jpg" alt="File structure of the repository">
+<img src="https://pbest.eu/poi-quick-app/sample/images/methodology-repo.jpg" alt="File structure of the repository" height="800">
 
 
 ### <a name='Step2.populatethedatabase'></a>Step 2. populate the database
