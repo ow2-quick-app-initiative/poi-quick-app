@@ -1,19 +1,14 @@
 # Local Heritage Quick App
 
-The Local Heritage Quick App project is a set of tools and a methodology to generate apps and services for towns to promote their local art, culture, history, or whatever they are famous for. 
+The Local Heritage Quick App project provides a methodology and a set of tools to generate apps and services for towns that want to promote their local art, culture, history, or whatever they are famous for. 
 
-> It's free, open-data, open-source, and collaborative 
+> It's free, open-data, open-source, and crowdsourced
 
-Any city can implement its own application in a few hours. They only need one or more experts to feed the first version of the database.   
-Have a look at some proofs of concept we´ve developed:
+The Comic Book Route quick app (see next figure) was made with following this methods and code templates in less than one hour:
 
-- [Leuven (Belgium)](https://pbesteu.github.io/cultural-heritage-quick-app/be/leuven) 
-- [Eckernförde (Germany)](https://pbesteu.github.io/cultural-heritage-quick-app/de/eckernforde) 
+<img src="https://pbest.eu/comic-book-route-quick-app/bxl/images/screenshots.gif" alt="Screenshots of the Comic Book Route Quick App" title="Brussels Comic Book Route Quick App">
 
-Some screenshots:
-
-<img src="https://pbest.eu/cultural-heritage-quick-app/be/leuven/images/screenshots.png" alt="Screenshots of the Leuven application" width="100%">
-
+Learn more details about the methodology and how to use the templates in the following sections.
 
 <!-- vscode-markdown-toc -->
 * [Background](#Background)
@@ -21,21 +16,23 @@ Some screenshots:
 	* [Online local heritage promotion](#Onlinelocalheritagepromotion)
 * [The project](#Theproject)
 * [The methodology](#Themethodology)
-	* [Step 1: clone and configure the project](#cloneandconfiguretheproject)
-	* [Step 2: populate the database](#populatethedatabase)
+	* [Step 1. clone and configure the project](#Step1.cloneandconfiguretheproject)
+	* [Step 2. populate the database](#Step2.populatethedatabase)
 		* [How to submit new images](#Howtosubmitnewimages)
 		* [How to update the database](#Howtoupdatethedatabase)
 	* [How to configure and handle public update proposals](#Howtoconfigureandhandlepublicupdateproposals)
-	* [Step 3: publish the database](#publishthedatabase)
+		* [Real example using Open Data and Linked Data](#RealexampleusingOpenDataandLinkedData)
+	* [Step 3. publish the database](#Step3.publishthedatabase)
 		* [Database and pictures on GitHub pages](#DatabaseandpicturesonGitHubpages)
-	* [Step 4: customize the app](#customizetheapp)
+	* [Step 4. customize the app](#Step4.customizetheapp)
 		* [Load the project in the IDE](#LoadtheprojectintheIDE)
 		* [Select a name for your app](#Selectanameforyourapp)
 		* [Change the image](#Changetheimage)
 		* [Localize the user interface](#Localizetheuserinterface)
-	* [Step 5: run the app](#runtheapp)
+	* [Step 5. run (and publish) the app](#Step5.runandpublishtheapp)
 		* [Install the dependencies](#Installthedependencies)
 		* [Compile and run the app](#Compileandruntheapp)
+        * [Examples of implementations](#Examplesofimplementations)
 * [License](#License)
 * [Privacy](#Privacy)
 * [Developers](#Developers)
@@ -81,12 +78,19 @@ You can find all the details of the Local Heritage Quick App project in [its Git
 
 ## <a name='Themethodology'></a>The methodology
 
-The methodology, based on the principles [listed above](#the-project), can be applied to any scenario by anyone without limits. The procedure, templates, and code included in the git repository aim to develop proofs of concepts that could evolve and be promoted to production environments.
+The methodology, based on the principles [listed above](#Theproject), can be applied to any scenario by anyone without limits. The procedure, templates, and code included in the git repository aim to develop proofs of concepts that could evolve and be promoted to production environments.
 
-<img src="https://pbest.eu/poi-quick-app/sample/methodology.jpg" alt="Methodology of Local Heritage Quick App project" width="100%">
+The main steps of the process are described below:
 
+* [Step 1. clone and configure the project](#Step1.cloneandconfiguretheproject) from __GitHub__; 
+* [Step 2. populate the database](#Step2.populatethedatabase), using __open data__ or other means you like;
+* [Step 3. publish the database](#Step3.publishthedatabase), setting up __GitHub Pages__;
+* [Step 4. customize the app](#Step4.customizetheapp), changing colors, icons and descriptions;
+* [Step 5. run (and publish) the app](#Step5.runandpublishtheapp).
 
-### <a name='cloneandconfiguretheproject'></a>Step 1: clone and configure the project
+<img src="https://pbest.eu/poi-quick-app/sample/methodology-all.jpg" alt="Methodology of Local Heritage Quick App project" width="100%">
+
+### <a name='Step1.cloneandconfiguretheproject'></a>Step 1. clone and configure the project
 
 1. Access the [git repository](https://github.com/pbesteu/poi-quick-app). 
 2. Fork the project into your projects (`Reuse this template`).
@@ -95,8 +99,12 @@ You might access the public database and documentation under the `/docs` directo
 
 The application code (a quick app) is under the `/quick-app` directory.
 
+See the complete structure of the project in the following picture.
 
-### <a name='populatethedatabase'></a>Step 2: populate the database
+<img src="https://pbest.eu/poi-quick-app/sample/images/methodology-repo.jpg" alt="File structure of the repository">
+
+
+### <a name='Step2.populatethedatabase'></a>Step 2. populate the database
 
 Note that all the documents and directories within `/docs` will be exposed and accessible from the Web. 
 
@@ -261,7 +269,7 @@ The app can be configured with localized texts, URLs, and themes, depending on t
 - `text_acknowledge` (`string`) Text with acknowledgements about the project. It will be shown in the _about_ section.
 - `text_feedback` (`string`) Text with information explaining how to contribute with the project. It will be shown in the _about_ section.
 - `feedback_url` (`url`) A URL linking to a page where the contributors can get involved. It will be shown in the _about_ section.
-- `issue_url` (`url`) A URL with customized parameters in the querystring that will be used to report individual issues on specific items. It will be linked on the individual items. See [How to configure and handle public update proposals](#how-to-configure-and-handle-public-update-proposals) for more details.
+- `issue_url` (`url`) A URL with customized parameters in the querystring that will be used to report individual issues on specific items. It will be linked on the individual items. See [How to configure and handle public update proposals](#Howtoconfigureandhandlepublicupdateproposals) for more details.
 
 
 ###### Points of Interest
@@ -302,7 +310,17 @@ For instance:
 
 Note that the application will append the name of the point of interest at the end of the URL, so the GitHub issue will contain the full name of the point of interest in the title.
 
-### <a name='publishthedatabase'></a>Step 3: publish the database
+#### <a name='RealexampleusingOpenDataandLinkedData'></a>Real example using Open Data and Linked Data
+
+The [Brussels Comic Book Route Quick App](https://github.com/pbesteu/comic-book-route-quick-app) was made through this methodology and templates. The database is based on a dataset by the [BXL Open Data](https://opendata.brussels.be/page/home/) initiative.
+
+The data, almost perfect and distributed in Comma Separated Value (CSV) format, was curated using [OpenRefine](https://openrefine.org/). Subsequently, the database was enriched with external sources like [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page) through __linked data__.  
+
+This is just an example, but it shows how powerful and productive may be these tools for simple projects.  
+
+Read the illustrative [step-by-step guide on how the Brussels Comic Book Route project was created](https://pbest.eu/comic-book-route-quick-app/step_by_step_development_guide.pdf).
+
+### <a name='Step3.publishthedatabase'></a>Step 3. publish the database
 
 #### <a name='DatabaseandpicturesonGitHubpages'></a>Database and pictures on GitHub pages
 
@@ -331,8 +349,10 @@ The open source project includes the CI actions. Once you have access to these C
 4. You can verify that the CI Action works properly (`Project's Actions`) and re-run the jobs with failure (after that, they must be in green)
 5. In project's `Settings` > `Pages` you can see the public URL of your site with the template of the documentation. 
 
+<img src="https://pbest.eu/poi-quick-app/sample/images/methodology-ci.jpg" alt="Summary of the workflow of the CI actions" width="100%">
 
-### <a name='customizetheapp'></a>Step 4: customize the app
+
+### <a name='Step4.customizetheapp'></a>Step 4. customize the app
 
 The final outcome is an app, implemented as a [Quick App for Android](https://quick-app-initiative.ow2.io/editorials/2022-06-23-what-is-a-quick-app/), with a service for locals and tourists, with basic and intuitive functionality. The app uses contextual information collected by the device, like the precise user's location, and serves the data and images through an appealing and straightforward user interface.
 
@@ -374,9 +394,11 @@ Just overwrite `/common/images/logo.png` (flexible dimensions) and `/common/imag
 
 #### Load the database 
 
-Overwrite the first version of the database generated in the [step 2](#populatethedatabase) over `/common/json/data.json`.
+Overwrite the first version of the database generated in the [step 2](#Step2.populatethedatabase) over `/common/json/data.json`.
 
-This database file will be used in case the app is offline. 
+This database file will be used in case the app is offline.
+
+<img src="https://pbest.eu/poi-quick-app/sample/images/methodology-app-maintenance.jpg" alt="How the app works in summary">
 
 #### <a name='Localizetheuserinterface'></a>Localize the user interface
 
@@ -406,7 +428,7 @@ Example of the `en.json` document:
         // ...
 ```
 
-### <a name='runtheapp'></a>Step 5: run the app
+### <a name='Step5.runandpublishtheapp'></a>Step 5. run (and publish) the app
 
 #### <a name='Installthedependencies'></a>Install the dependencies
 
@@ -422,8 +444,18 @@ npm install
 
 Test the app within the IDE.
 
-You also can generate the RPK package and distribute it. 
+You also can generate the RPK app package and distribute it where you want.
 
+The initial tools only generates a quick app as an outcome, but you are encouraged to explore other ways to serve the information (e.g., Web Application, Android app, etc.). __We will be glad to see other final implementations__ based on the common databases.  
+
+#### <a name='Examplesofimplementations'></a>Examples of implementations
+
+* [Leuven Cultural Heritage](https://pbest.eu/cultural-heritage-quick-app/). Historic places and monuments in Leuven 🇧🇪.
+* [Oeratoom](https://pbest.eu/oeratoom-leuven-quick-app/). Big Bang Theory artwork in Leuven 🇧🇪.
+* [Comic Book Route](https://pbest.eu/comic-book-route-quick-app/). Wall paintings in Brussels 🇧🇪.
+* [Eckernförde Heritage](https://pbest.eu/cultural-heritage-quick-app/de/eckernforde/). Historic buildings in Eckernförde 🇩🇪.
+
+Share yours! Just [send us the information](https://github.com/pbesteu/poi-quick-app/issues/new).
 
 ## <a name='License'></a>License
 
@@ -443,5 +475,4 @@ The app doesn't collect any personal data. The quick app may perform a call to a
 
 Just fork the repository and push your contributions. The code of the quick app is in the [`/quick-app`](https://github.com/pbesteu/poi-quick-app/tree/main/quick-app) folder of the repository. 
 
-Feel free to [raise issues](https://github.com/pbesteu/poi-quick-app/issues/new) on the code.
-
+Also, feel free to [raise issues](https://github.com/pbesteu/poi-quick-app/issues/new) on the code.
