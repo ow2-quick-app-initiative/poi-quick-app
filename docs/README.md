@@ -4,7 +4,7 @@ The Local Heritage Quick App project provides a methodology and a set of tools f
 
 > It's free, open-data, open-source, and crowdsourced
 
-The [Comic Book Route quick app](#Examplesofimplementations) was made with following this methods and code templates in less than one hour.
+The [Comic Book Route quick app](#Examplesofimplementations) was made with following these methods and code templates in less than one hour.
 
 <img src="https://pbest.eu/comic-book-route-quick-app/bxl/images/screenshots.gif" alt="Screenshots of the Comic Book Route Quick App" title="Brussels Comic Book Route Quick App" height="500">
 
@@ -85,8 +85,8 @@ The main steps of the process are described below:
 
 * [Step 1. clone and configure the project](#Step1.cloneandconfiguretheproject) from __GitHub__; 
 * [Step 2. populate the database](#Step2.populatethedatabase), using __open data__ or other means you like;
-* [Step 3. publish the database](#Step3.publishthedatabase), setting up __GitHub Pages__;
-* [Step 4. customize the app](#Step4.customizetheapp), changing colors, icons and descriptions;
+* [Step 3. publish the database](#Step3.publishthedatabase) and set up __GitHub Pages__;
+* [Step 4. customize the app](#Step4.customizetheapp), changing colors, icons, and descriptions;
 * [Step 5. run (and publish) the app](#Step5.runandpublishtheapp).
 
 <img src="https://pbest.eu/poi-quick-app/sample/images/methodology-all.jpg" alt="Methodology of Local Heritage Quick App project" width="100%">
@@ -113,14 +113,14 @@ The database document is at `/docs/sample/data.json`.
 
 Every project has two resource types:
 
-- *images* (`./images/xxxxx.jpg`): light pictures in square format. If possible 1x1 ratio for homogenous look and feel; the lighter the better (50Kb per image would be fine).
+- *images* (`./images/xxxxx.jpg`): light pictures in square format. If possible 1x1 ratio for a homogenous look and feel; the lighter, the better (50Kb per image would be fine).
 - *database* (`./data.json`): JSON file with the app's configuration (name, colors, privacy texts, etc.) and the points of interest you want to show in the app. 
 
-You can download it in your computer, modify the texts, or add a new element based on your knowledge. 
+You can download it to your computer, modify the texts, or add a new element based on your knowledge. 
 
 Once you have the final version, pull the content to the git repository (and repeat every time you want to modify the content).
 
-You might want to introduce a moderation process for the maintenance, reviewing the pull requests and changes over the content. Also you can use issues and comments to open the participation to users that are not familiar with GitHub.
+You might want to introduce a moderation process for the maintenance, reviewing the pull requests and changes over the content. Also, you can use issues and comments to open the participation to users that are not familiar with GitHub.
 
 #### <a name='Howtosubmitnewimages'></a>How to submit new images
 
@@ -175,7 +175,7 @@ Example of a project named `fr/paris` for the City of Paris:
 
 ##### Content of the project
 
-Following with the example of City of Paris, we can __localize the content into any language__, using the [ISO 639-1](https://www.loc.gov/standards/iso639-2/php/English_list.php) codes (assigning a two-letter code for the language). You can also specify the concrete region (using a `-` character and the concrete [ISO 3166-1](https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes) (Alpha-2 code). 
+Following the example of the City of Paris, we can __localize the content into any language__, using the [ISO 639-1](https://www.loc.gov/standards/iso639-2/php/English_list.php) codes (assigning a two-letter code for the language). You can also specify the concrete region (using a `-` character and the concrete [ISO 3166-1](https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes) (Alpha-2 code). 
 
 ``` json
 {
@@ -208,7 +208,7 @@ The content language tags are objects with the following structure:
 ```
 
 - `app` is an object that contains general information to configure the application for this language.
-- `pois` is an array of objects with points of interest or items of the database. 
+- `pois` is an array of objects with points of interest or database items. 
 
 
 ```js
@@ -265,12 +265,12 @@ The app can be configured with localized texts, URLs, and themes, depending on t
 - `theme` (`object`) The main look-and-feel colors:  
   - `brand` (`string`) The primary color in HEX format (e.g., `#B11623`)
   - `complementary` (`string`) The secondary color in HEX format (e.g., `#FAFAFA`)
-- `repository_url` (`url`) The URL to the repository where the project is hosted (where this database is maintain).
+- `repository_url` (`url`) The URL to the repository where the project is hosted (where this database is maintained).
 - `text_info` (`string`) Text to explain the project. It will be shown in the _about_ section.
 - `text_acknowledge` (`string`) Text with acknowledgements about the project. It will be shown in the _about_ section.
 - `text_feedback` (`string`) Text with information explaining how to contribute with the project. It will be shown in the _about_ section.
 - `feedback_url` (`url`) A URL linking to a page where the contributors can get involved. It will be shown in the _about_ section.
-- `issue_url` (`url`) A URL with customized parameters in the querystring that will be used to report individual issues on specific items. It will be linked on the individual items. See [How to configure and handle public update proposals](#Howtoconfigureandhandlepublicupdateproposals) for more details.
+- `issue_url` (`url`) A URL with customized parameters in the querystring that will be used to report individual issues on specific items. It will be linked to the individual items. See [How to configure and handle public update proposals](#Howtoconfigureandhandlepublicupdateproposals) for more details.
 
 
 ###### Points of Interest
@@ -279,10 +279,10 @@ The PoIs are the main items of the database, described in the `poi` attribute as
 
 - `id` (`string`) Unique identifier for the item (e.g., `eiffeltower`).
 - `name` (`string`) Short text with the title of the point of interest (e.g., `Eiffel Tower`).
-- `lat` (`string`) Latitude component of the item coordinates in WGS84 format (e.g. `48.8651`).
-- `lon` (`string`) Longitude component of the item coordinates in WGS84 format (e.g. `2.2909`).
-- `type` (`string`) Short text with the type of the item, according to your own taxonomy (e.g. `sculpture`, `painting`,...).
-- `images` (`array` of `url`) One or more absolute URLs with pictures about the item. These images could be external but it is recommended to host them under the same repository as the database. See [How to submit new images](#how-to-submit-new-images) for more details.
+- `lat` (`string`) Latitude component of the item coordinates in WGS84 format (e.g.,`48.8651`).
+- `lon` (`string`) Longitude component of the item coordinates in WGS84 format (e.g.,`2.2909`).
+- `type` (`string`) Short text with the type of the item, according to your own taxonomy (e.g.,`sculpture`, `painting`,...).
+- `images` (`array` of `url`) One or more absolute URLs with pictures about the item. These images could be external, but it is recommended to host them under the same repository as the database. See [How to submit new images](#how-to-submit-new-images) for more details.
 - `description` (`string`) One paragraph text with a concise description of the item.
 - `more` (`string`) Extended text with more details of the item.
 - `urls` (`array` of `url`) One or more absolute URLs to external related resources (e.g., to Wikipedia, official sources, etc.).
@@ -295,7 +295,7 @@ The [Brussels Comic Book Route Quick App](https://github.com/pbesteu/comic-book-
 
 The data, almost perfect and distributed in Comma Separated Value (CSV) format, was curated using [OpenRefine](https://openrefine.org/). Subsequently, the database was enriched with external sources like [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page) through __linked data__.  
 
-This is just an example, but it shows how powerful and productive may be these tools for simple projects.  
+This is just an example, but it shows how powerful and productive these tools may be for simple projects.  
 
 Read the illustrative [step-by-step guide on how the Brussels Comic Book Route project was created](https://pbest.eu/comic-book-route-quick-app/step_by_step_development_guide.pdf).
 
@@ -332,13 +332,13 @@ The open source project includes the CI actions. Once you have access to these C
 
 #### <a name='Howtoconfigureandhandlepublicupdateproposals'></a>How to configure and handle public update proposals 
 
-User's feedback is handled through GitHub issues guaranteeing transparent communication and proper attribution. Issues might be classified using tags to indicate the project whose belong to. 
+User's feedback is handled through GitHub issues guaranteeing transparent communication and proper attribution. Issues might be classified using tags to indicate the project to which they belong. 
 
 The title of the issues should contain the same name or identifier of the point of interest to avoid misunderstandings.   
 
-You also can create an issue template to have homogeneous format (see [.github/ISSUE_TEMPLATE/update_request.md](../.github/ISSUE_TEMPLATE/update_request.md)) and use it for new issues. 
+You also can create an issue template to have a homogeneous format (see [.github/ISSUE_TEMPLATE/update_request.md](../.github/ISSUE_TEMPLATE/update_request.md)) and use it for new issues. 
 
-In the [app configuration](#app-configuration) we configure the template URL for the issues for the project. If you want to handle issues by language, you can specify different tags or templates according to your needs. 
+In the [app configuration](#app-configuration), we configure the template URL for the issues for the project. If you want to handle issues by language, you can specify different tags or templates according to your needs. 
 
 For instance:
 
@@ -389,13 +389,13 @@ Read more details [about the Quick App manifest](https://quick-app-initiative.ow
 
 #### <a name='Changetheimage'></a>Change the image 
 
-Rewrite the app main logo and the icon with your own images.
+Rewrite the app´s main logo and the icon with your own images.
 
 Just overwrite `/common/images/logo.png` (flexible dimensions) and `/common/images/logo-216.png` (216 x 216px)
 
 #### Load the database 
 
-Overwrite the first version of the database generated in the [step 2](#Step2.populatethedatabase) over `/common/json/data.json`.
+Overwrite the first version of the database generated in [step 2](#Step2.populatethedatabase) over `/common/json/data.json`.
 
 This database file will be used in case the app is offline.
 
@@ -447,14 +447,14 @@ Test the app within the IDE.
 
 You also can generate the RPK app package and distribute it where you want.
 
-The initial tools only generates a quick app as an outcome, but you are encouraged to explore other ways to serve the information (e.g., Web Application, Android app, etc.). __We will be glad to see other final implementations__ based on the common databases.  
+The initial tools only generate a quick app as an outcome, but you are encouraged to explore other ways to serve the information (e.g., Web Application, Android app, etc.). __We will be glad to see other final implementations__ based on the common databases.  
 
 #### <a name='Examplesofimplementations'></a>Examples of implementations
 
-* [Leuven Cultural Heritage](https://pbest.eu/cultural-heritage-quick-app/). Historic places and monuments in Leuven 🇧🇪.
+* [Leuven Cultural Heritage](https://pbest.eu/cultural-heritage-quick-app/). Historical places and monuments in Leuven 🇧🇪.
 * [Oeratoom](https://pbest.eu/oeratoom-leuven-quick-app/). Big Bang Theory artwork in Leuven 🇧🇪.
 * [Comic Book Route](https://pbest.eu/comic-book-route-quick-app/). Wall paintings in Brussels 🇧🇪.
-* [Eckernförde Heritage](https://pbest.eu/cultural-heritage-quick-app/de/eckernforde/). Historic buildings in Eckernförde 🇩🇪.
+* [Eckernförde Heritage](https://pbest.eu/cultural-heritage-quick-app/de/eckernforde/). Historical buildings in Eckernförde 🇩🇪.
 
 Share yours! Just [send us the information](https://github.com/pbesteu/poi-quick-app/issues/new) about what you have done.
 
