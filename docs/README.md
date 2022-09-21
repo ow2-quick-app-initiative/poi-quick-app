@@ -455,7 +455,7 @@ The initial tools only generates a quick app as an outcome, but you are encourag
 * [Comic Book Route](https://pbest.eu/comic-book-route-quick-app/). Wall paintings in Brussels 🇧🇪.
 * [Eckernförde Heritage](https://pbest.eu/cultural-heritage-quick-app/de/eckernforde/). Historic buildings in Eckernförde 🇩🇪.
 
-Share yours! Just [send us the information](https://github.com/pbesteu/poi-quick-app/issues/new).
+Share yours! Just [send us the information](https://github.com/pbesteu/poi-quick-app/issues/new) about what you have done.
 
 ## <a name='License'></a>License
 
