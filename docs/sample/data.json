@@ -1,8 +1,9 @@
 {
     "meta": {
+        "app_id": "org.example.same.identifier.manifest.package",
         "app_title": "City Street Heritage",
         "version": 1,
-        "updated": "2022-05-26",
+        "updated": "2022-09-26",
         "source_url": "https://pbesteu.github.io/poi-quick-app/sample/data.json",
         "matomo_base_url": "https://matomo.pbest.me/matomo.php?idsite=1&rec=1",        
         "marketplace_url": ""

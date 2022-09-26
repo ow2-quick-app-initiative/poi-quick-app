@@ -38,6 +38,14 @@
                         "LVN Street Heritage"
                     ]
                 },
+                "app_id": {
+                    "title": "The package of the app",
+                    "type": "string",
+                    "default": "",
+                    "examples": [
+                        "org.example.myapp"
+                    ]
+                },
                 "version": {
                     "title": "The version of the app",
                     "type": "integer",
