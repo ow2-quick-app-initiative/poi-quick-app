@@ -151,6 +151,7 @@ Example of a project named `fr/paris` for the City of Paris:
 ```js
 {
     "meta": {
+        "app_id": "org.example.paris",        
         "app_title": "Paris Street Heritage",
         "version": 12,
         "updated": "2022-10-26",
@@ -166,6 +167,7 @@ Example of a project named `fr/paris` for the City of Paris:
 }
 ```
 
+- `app_id` (`string`) The package identifier as specified in the `manifest.json` document.
 - `app_title` (`string`) The title to identify the application.
 - `version` (`integer`) The non-negative integer that represents the version of this document (this will be used by the app to find the latest version).
 - `updated` (`date`) The date in ISO 8601 format (`YYYY-MM-DD`) when this document was last updated. 
