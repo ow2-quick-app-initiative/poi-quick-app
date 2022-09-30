@@ -1,8 +1,8 @@
-# Local Cultural Heritage Quick App - Your City
+# _Heritage in…_ Your City
 
 __Change this text according to your needs__
 
-The Local Cultural Heritage Quick App promotes cultural heritage collections in small and medium cities through open data and crowdsourcing. 
+The _Heritage in…_ Quick App project promotes cultural heritage collections in small and medium cities through open data and crowdsourcing. 
 
 > It's free, open-source and collaborative 
 

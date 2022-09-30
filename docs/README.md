@@ -1,6 +1,6 @@
-# Local Heritage Quick App
+# Heritage in… Quick App Project
 
-The Local Heritage Quick App project provides a methodology and a set of tools for towns to promote their most precious assets, enabling citizens and institutions to launch new projects focused on local art, culture, history, nature, or whatever is engaging in a place. 
+The _Heritage in…_ Quick App project provides a methodology and a set of tools for towns to promote their most precious assets, enabling citizens and institutions to launch new projects focused on local art, culture, history, nature, or whatever is engaging in a place. 
 
 > It's free, open-data, open-source, and crowdsourced
 
@@ -62,7 +62,7 @@ Having this global challenge in mind, we have created a methodology and open sou
 
 ## <a name='Theproject'></a>The project
 
-The Local Heritage Quick App project is a set of tools and a methodology to generate apps and services for towns to promote their local art, culture, history, or whatever they are famous for. 
+The _Heritage in…_ Quick App project is a set of tools and a methodology to generate apps and services for towns to promote their local art, culture, history, or whatever they are famous for. 
 
 This methodology follows the following principles:
 
@@ -74,7 +74,7 @@ This methodology follows the following principles:
 
 This initiative enables individuals to clone an open-source repository with all the instructions, templates, and source code needed to customize and launch their own local heritage project in a few hours. The templates are fully flexible and generic so that you might use them in any scenario, topic, and place.
 
-You can find all the details of the Local Heritage Quick App project in [its GitHub repository](https://github.com/pbesteu/poi-quick-app). It comprises three main parts: the __methodology__, the __database__, and the __app__.  
+You can find all the details of the _Heritage in…_ Quick App project in [its GitHub repository](https://github.com/pbesteu/poi-quick-app). It comprises three main parts: the __methodology__, the __database__, and the __app__.  
 
 
 ## <a name='Themethodology'></a>The methodology
@@ -89,7 +89,7 @@ The main steps of the process are described below:
 * [Step 4. customize the app](#Step4.customizetheapp), changing colors, icons, and descriptions;
 * [Step 5. run (and publish) the app](#Step5.runandpublishtheapp).
 
-<img src="https://pbest.eu/poi-quick-app/sample/images/methodology-all.jpg" alt="Methodology of Local Heritage Quick App project" width="100%">
+<img src="https://pbest.eu/poi-quick-app/sample/images/methodology-all.jpg" alt="Methodology of Heritage in… Quick App project" width="100%">
 
 ### <a name='Step1.cloneandconfiguretheproject'></a>Step 1. clone and configure the project
 
