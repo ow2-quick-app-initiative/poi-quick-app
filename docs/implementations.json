@@ -6,19 +6,22 @@
       "name": "LVN Street Heritage",
       "location": "Leuven (🇧🇪)",
       "source_url": "https://pbesteu.github.io/cultural-heritage-quick-app/be/leuven/data.json",
-      "country": "Belgium"
+      "country": "Belgium",
+      "lang": [ "en" ]
     },
     { 
       "name": "BXL Comic Book Route",
       "location": "Brussels (🇧🇪)",
       "source_url": "https://pbesteu.github.io/comic-book-route-quick-app/bxl/data.json",
-      "country": "Belgium"
+      "country": "Belgium",
+      "lang": [ "en" ]
     },
     { 
       "name": "Eckernförde Street Heritage",
       "location": "Eckernförde (🇩🇪)",
       "source_url": "https://pbesteu.github.io/cultural-heritage-quick-app/de/eckernforde/data.json",
-      "country": "Germany"
+      "country": "Germany",
+      "lang": [ "en", "de" ]
     }
   ]
 }
