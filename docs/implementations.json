@@ -17,11 +17,18 @@
       "lang": [ "en" ]
     },
     { 
+      "name": "Antwerpen Middelheimmuseum",
+      "location": "Antwerpen (🇧🇪)",
+      "source_url": "https://pbest.eu/cultural-heritage-quick-app/be/antwerpen/middelheimmuseum/data.json",
+      "country": "Belgium",
+      "lang": [ "en" ]
+    },
+    { 
       "name": "Eckernförde Street Heritage",
       "location": "Eckernförde (🇩🇪)",
       "source_url": "https://pbesteu.github.io/cultural-heritage-quick-app/de/eckernforde/data.json",
       "country": "Germany",
       "lang": [ "en", "de" ]
-    }
+    }    
   ]
 }
