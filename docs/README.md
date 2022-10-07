@@ -1,4 +1,4 @@
-# Heritage in… Quick App Project
+# _Heritage in…_ Quick App Project
 
 The _Heritage in…_ Quick App project provides a methodology and a set of tools for towns to promote their most precious assets, enabling citizens and institutions to launch new projects focused on local art, culture, history, nature, or whatever is engaging in a place. 
 
@@ -30,9 +30,10 @@ Learn more details about the methodology and how to use the templates in the fol
 		* [Change the image](#Changetheimage)
 		* [Localize the user interface](#Localizetheuserinterface)
 	* [Step 5. run (and publish) the app](#Step5.runandpublishtheapp)
-		* [Install the dependencies](#Installthedependencies)
 		* [Compile and run the app](#Compileandruntheapp)
+        * [Generate your Progressive Web Application](#pwa)
         * [Examples of implementations](#Examplesofimplementations)
+
 * [License](#License)
 * [Privacy](#Privacy)
 * [Developers](#Developers)
@@ -433,7 +434,9 @@ Example of the `en.json` document:
 
 ### <a name='Step5.runandpublishtheapp'></a>Step 5. run (and publish) the app
 
-#### <a name='Installthedependencies'></a>Install the dependencies
+#### <a name='Compileandruntheapp'></a>Compile and run the app
+
+1) Install the dependencies
 
 The app requires the external `geolib` library for geographic functions (e.g., `getDistance(from, to)`)
 
@@ -443,13 +446,49 @@ Other libraries may be added to the `package.json` document in the root director
 npm install
 ```
 
-#### <a name='Compileandruntheapp'></a>Compile and run the app
-
-Test the app within the IDE.
+2) Test the app within the IDE
 
 You also can generate the RPK app package and distribute it where you want.
 
-The initial tools only generate a quick app as an outcome, but you are encouraged to explore other ways to serve the information (e.g., Web Application, Android app, etc.). __We will be glad to see other final implementations__ based on the common databases.  
+If you want to promote the app, you can publish the quick app in [AppGallery](https://developer.huawei.com/consumer/en/service/josp/agc/index.html#/) or other marketplaces.
+
+#### <a name='pwa'></a>Generate your Progressive Web Application
+
+Alternatively, you can try the database generated on the Web. We have developed a simple web application, [heritagein.info](http://heritagein.info), that uses that database (`data.json`) to display and interact with it. The Web version has similar functionalities to the quick app, available on any web browser. 
+
+In reality, [heritagein.info](http://heritagein.info) is a __meta app__ that enables us to generate unlimited _heritage in..._ apps just passing a parameter with the URL to your `data.json`. 
+
+For instance, we can visualize the places in the database generated for the Brussels Comic Book Route ( 
+`https://pbesteu.github.io/comic-book-route-quick-app/bxl/data.json`), including the URL in the query string as follows.
+
+```
+https://heritagein.info/_/?url=https://pbesteu.github.io/comic-book-route-quick-app/bxl/data.json
+``` 
+
+Just change the `url`parameter to test your outcomes. Visit the home page and find some existing implementations that follow this methodology. 
+
+##### How to generate a new PWA?
+
+We maintain a public [configuration file](https://github.com/pbesteu/poi-quick-app/blob/main/docs/implementations.json), which the application uses to generate the concrete instances for each configuration file. Each instance listed in this document is a Progressive Web Application. The system generates dedicated [manifest.json](https://developer.mozilla.org/en-US/docs/Web/Manifest) for each of them. 
+
+This implementations.json document includes a `towns` array with objects that will identify every implementation. For instance:
+  
+```js
+"towns" : [
+         // ...,
+	 { 
+	 "name": "Paris Cultural Heritage",
+	 "id": "paris",
+	 "location": "Paris (🇫🇷)",
+	 "source_url": "https://github.io/cultural-quick-app/fr/paris/data.json",
+	 "country": "France",
+	 "lang": [ "en", "fr", "es" ]
+	 },
+```
+
+The meta app will generate a new instance for you under the path indicated by the `id` member. So, we will have a nicer URL (i.e., `heritagein.info/paris/`). 
+
+The heritagein.info app implements [language negotiation](https://www.w3.org/International/questions/qa-when-lang-neg), but you can force the locale, including it as a parameter in the path of the URL, just after the id of the implementation (e.g., `heritagein.info/paris/fr/` for French or `heritagein.info/paris/en/` for English). If no content or UI elements are localized to this language, the system will return `en`(English) by default or the first locale found in the database. 
 
 #### <a name='Examplesofimplementations'></a>Examples of implementations
 
@@ -458,7 +497,9 @@ The initial tools only generate a quick app as an outcome, but you are encourage
 * [Comic Book Route](https://pbest.eu/comic-book-route-quick-app/). Wall paintings in Brussels 🇧🇪.
 * [Eckernförde Heritage](https://pbest.eu/cultural-heritage-quick-app/de/eckernforde/). Historical buildings in Eckernförde 🇩🇪.
 
-Share yours! Just [send us the information](https://github.com/pbesteu/poi-quick-app/issues/new) about what you have done.
+Share yours! We are collecting all [the existing implementations in machine-readable format](https://github.com/pbesteu/poi-quick-app/blob/main/docs/implementations.json). This will help the tools to produce new Web applications based on your database. 
+
+Just update the file or [send us the information](https://github.com/pbesteu/poi-quick-app/issues/new) about what you have done.
 
 ## <a name='License'></a>License
 
