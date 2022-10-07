@@ -493,9 +493,10 @@ The heritagein.info app implements [language negotiation](https://www.w3.org/Int
 #### <a name='Examplesofimplementations'></a>Examples of implementations
 
 * [Leuven Cultural Heritage](https://pbest.eu/cultural-heritage-quick-app/). Historical places and monuments in Leuven 🇧🇪.
-* [Oeratoom](https://pbest.eu/oeratoom-leuven-quick-app/). Big Bang Theory artwork in Leuven 🇧🇪.
-* [Comic Book Route](https://pbest.eu/comic-book-route-quick-app/). Wall paintings in Brussels 🇧🇪.
-* [Eckernförde Heritage](https://pbest.eu/cultural-heritage-quick-app/de/eckernforde/). Historical buildings in Eckernförde 🇩🇪.
+* [Oeratoom](https://pbest.eu/oeratoom-leuven-quick-app/). Big Bang Theory artwork in Leuven (🇧🇪). [See result](https://heritagein.info/leuven/). [See result](https://heritagein.info/oeratoom/).
+* [Comic Book Route](https://pbest.eu/comic-book-route-quick-app/). Wall paintings in Brussels (🇧🇪). [See result](https://heritagein.info/comics/).
+* [Middelheim Museum](https://pbest.eu/cultural-heritage-quick-app/be/antwerpen/middelheimmuseum/data.json). Open-air musseum in Antwerpen (🇩🇪). [See result](https://heritagein.info/middelheim/).
+* [Eckernförde Heritage](https://pbest.eu/cultural-heritage-quick-app/de/eckernforde/). Historical buildings in Eckernförde 🇩🇪. [See result](https://heritagein.info/eckernforde/).
 
 Share yours! We are collecting all [the existing implementations in machine-readable format](https://github.com/pbesteu/poi-quick-app/blob/main/docs/implementations.json). This will help the tools to produce new Web applications based on your database. 
 
