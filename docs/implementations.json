@@ -1,6 +1,6 @@
 {
-  "version": 2,
-  "updated": "2022-10-06",
+  "version": 3,
+  "updated": "2022-10-07",
   "towns" : [
     { 
       "name": "LVN Street Heritage",
@@ -33,6 +33,14 @@
       "source_url": "https://pbesteu.github.io/cultural-heritage-quick-app/de/eckernforde/data.json",
       "country": "Germany",
       "lang": [ "en", "de", "zh" ]
-    }    
+    },
+    { 
+      "name": "Oeratoom (Primeval Atom)",
+      "id": "oeratoom",
+      "location": "Leuven (🇧🇪)",
+      "source_url": "https://pbest.eu/oeratoom-leuven-quick-app/oeratoom/data.json",
+      "country": "Belgium",
+      "lang": [ "en" ]
+    }
   ]
 }
