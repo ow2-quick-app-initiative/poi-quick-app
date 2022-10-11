@@ -1,6 +1,6 @@
 {
-  "version": 3,
-  "updated": "2022-10-07",
+  "version": 4,
+  "updated": "2022-10-11",
   "towns" : [
     { 
       "name": "LVN Street Heritage",
@@ -41,6 +41,22 @@
       "source_url": "https://pbest.eu/oeratoom-leuven-quick-app/oeratoom/data.json",
       "country": "Belgium",
       "lang": [ "en" ]
+    },
+    { 
+      "name": "Barcelona Beaches)",
+      "id": "barcelona",
+      "location": "Barcelona (🇪🇸)",
+      "source_url": "https://pbest.eu/cultural-heritage-quick-app/es/barcelona/beach/data.json",
+      "country": "Spain",
+      "lang": [ "en", "ca" ]
+    },
+    { 
+      "name": "Amsterdam Historic Buildings",
+      "id": "amsterdam",
+      "location": "Amsterdam (🇳🇱)",
+      "source_url": "https://pbest.eu/cultural-heritage-quick-app/nl/amsterdam/data.json",
+      "country": "Netherlands",
+      "lang": [ "en", "nl" ]
     }
   ]
 }
