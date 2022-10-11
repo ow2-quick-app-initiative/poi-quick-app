@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "updated": "2022-10-11",
   "towns" : [
     { 
@@ -43,7 +43,7 @@
       "lang": [ "en" ]
     },
     { 
-      "name": "Barcelona Beaches)",
+      "name": "Barcelona Beaches",
       "id": "barcelona",
       "location": "Barcelona (🇪🇸)",
       "source_url": "https://pbest.eu/cultural-heritage-quick-app/es/barcelona/beach/data.json",
@@ -56,7 +56,7 @@
       "location": "Amsterdam (🇳🇱)",
       "source_url": "https://pbest.eu/cultural-heritage-quick-app/nl/amsterdam/data.json",
       "country": "Netherlands",
-      "lang": [ "en", "nl" ]
+      "lang": [ "en" ]
     }
   ]
 }
