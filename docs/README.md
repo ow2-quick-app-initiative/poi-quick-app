@@ -36,7 +36,7 @@ Learn more details about the methodology and how to use the templates in the fol
 
 * [License](#License)
 * [Privacy](#Privacy)
-* [Developers](#Developers)
+* [Get involved](#Getinvolved)
 * [Acknowledgements](#acknowledgements)
 
 <!-- vscode-markdown-toc-config
@@ -514,13 +514,25 @@ These apps are based on open data and automatic processing of the data. The comm
 
 The app doesn't collect any personal data. The quick app may perform a call to a [Matomo instance](https://en.wikipedia.org/wiki/Matomo_(software)) to measure its performance, but no personal data is shared. You can just [check the code](https://github.com/pbesteu/poi-quick-app/blob/0e30a81f203796156ecb29b30437fb18f9f83309/quick-app/src/app.ux#L222) that generates a random identifier.  
 
-## <a name='Developers'></a>Developers
+## <a name='Getinvolved'></a>Get involved
 
-> Do you want to contribute to the original code?
+> Do you want to improve the content, translations or enhance the original code? 
 
-Just fork the repository and push your contributions. The code of the quick app is in the [`/quick-app`](https://github.com/pbesteu/poi-quick-app/tree/main/quick-app) folder of the repository. 
+This project aims to be as much collaborative as possible, so we will be pleased to have you onboard. You can contribute in many ways:
 
-Also, feel free to [raise issues](https://github.com/pbesteu/poi-quick-app/issues/new) on the code.
+- Translate the user interface of the apps (or enhance the existing automatic translations);
+- Improve the quality of the databases for specific implementations;
+- Create your own project for your own purposes (even you can sell it);
+- Enhance the quality of the code (we are aware there is room for improvement... a lot);
+- Submit new pictures or more points of interest...
+
+If you are familiar with Github, just fork the repository and push your contributions. 
+
+The code of the quick app is in the [`/quick-app`](https://github.com/pbesteu/poi-quick-app/tree/main/quick-app) folder of the repository. The web application is in the [heritage-quick-app-web repository](https://github.com/pbesteu/heritage-quick-app-web).
+
+If you don´t know how to start, please login to Github and [raise an issue with your intentions and suggestions](https://github.com/pbesteu/poi-quick-app/issues/new).
+
+Thank you!
 
 ## Acknowledgements
 
