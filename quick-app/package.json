@@ -2,7 +2,7 @@
   "name": "org.example.myquickapp",
   "version": "0.0.1",
   "license": "MIT",
-  "repository": "https://github.com/pbesteu/poi-quick-app",
+  "repository": "https://github.com/ow2-quick-app-initiative/poi-quick-app",
   "description": "Sample quick app for Cultural Heritage promotion",
   "scripts": {
     "fa-build": "node node_modules/webpack/bin/webpack.js --progress --config ./node_modules/fa-toolkit/webpack.config.js",
