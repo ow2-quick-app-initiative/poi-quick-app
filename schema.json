@@ -150,7 +150,7 @@
                                     "pattern": "^(http|https)://.+$",
                                     "default": "",
                                     "examples": [
-                                        "https://github.com/pbesteu/poi-quick-app/tree/main/docs/sample/"
+                                        "https://github.com/ow2-quick-app-initiative/poi-quick-app/tree/main/docs/sample/"
                                     ]
                                 },
                                 "text_info": {
@@ -192,7 +192,7 @@
                                     "pattern": "^(http|https)://.+$",
                                     "default": "",
                                     "examples": [
-                                        "https://github.com/pbesteu/poi-quick-app/issues/new?labels=country/city&template=update_request.md&title=Update+Request"
+                                        "https://github.com/ow2-quick-app-initiative/poi-quick-app/issues/new?labels=country/city&template=update_request.md&title=Update+Request"
                                     ]
                                 }                                
                             }

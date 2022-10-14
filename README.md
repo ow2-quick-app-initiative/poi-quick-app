@@ -75,7 +75,7 @@ This methodology follows the following principles:
 
 This initiative enables individuals to clone an open-source repository with all the instructions, templates, and source code needed to customize and launch their own local heritage project in a few hours. The templates are fully flexible and generic so that you might use them in any scenario, topic, and place.
 
-You can find all the details of the _Heritage in…_ Quick App project in [its GitHub repository](https://github.com/pbesteu/poi-quick-app). It comprises three main parts: the __methodology__, the __database__, and the __app__.  
+You can find all the details of the _Heritage in…_ Quick App project in [its GitHub repository](https://github.com/ow2-quick-app-initiative/poi-quick-app). It comprises three main parts: the __methodology__, the __database__, and the __app__.  
 
 
 ## <a name='Themethodology'></a>The methodology
@@ -94,7 +94,7 @@ The main steps of the process are described below:
 
 ### <a name='Step1.cloneandconfiguretheproject'></a>Step 1. clone and configure the project
 
-1. Access the [git repository](https://github.com/pbesteu/poi-quick-app). 
+1. Access the [git repository](https://github.com/ow2-quick-app-initiative/poi-quick-app). 
 2. Fork the project into your projects (`Reuse this template`).
 
 You might access the public database and documentation under the `/docs` directory. There, you will find the template of the database `/docs/sample/data.json`. You can rename the `sample` directory following your rules.
@@ -224,12 +224,12 @@ The content language tags are objects with the following structure:
                     "brand": "#B11623",             // Main color of the theme
                     "complementary": "#FAFAFA"      // Secondary color of the theme
                 },
-                "repository_url": "https://github.com/pbesteu/poi-quick-app/",
+                "repository_url": "https://github.com/ow2-quick-app-initiative/poi-quick-app/",
                 "text_info": "This project was created by...",
                 "text_acknowledge": "We would like to thanks...",
                 "text_feedback": "Please let us know if you want to contribute...",
                 "feedback_url": "https://pbesteu.github.io/poi-quick-app/fr/paris/#contributors",
-                "issue_url": "https://github.com/pbesteu/poi-quick-app/issues/new?labels=fr/paris"
+                "issue_url": "https://github.com/ow2-quick-app-initiative/poi-quick-app/issues/new?labels=fr/paris"
             },
             "pois": [
                 {
@@ -348,7 +348,7 @@ For instance:
 ```js
 {
     //...
-    "issue_url": "https://github.com/pbesteu/poi-quick-app/issues/new?labels=uk/london&template=update_request.md&title=Update+request+of+"
+    "issue_url": "https://github.com/ow2-quick-app-initiative/poi-quick-app/issues/new?labels=uk/london&template=update_request.md&title=Update+request+of+"
     //...
 }
 ```
@@ -469,7 +469,7 @@ Just change the `url`parameter to test your outcomes. Visit the home page and fi
 
 ##### How to generate a new PWA?
 
-We maintain a public [configuration file](https://github.com/pbesteu/poi-quick-app/blob/main/docs/implementations.json), which the application uses to generate the concrete instances for each configuration file. Each instance listed in this document is a Progressive Web Application. The system generates dedicated [manifest.json](https://developer.mozilla.org/en-US/docs/Web/Manifest) for each of them. 
+We maintain a public [configuration file](https://github.com/ow2-quick-app-initiative/poi-quick-app/blob/main/docs/implementations.json), which the application uses to generate the concrete instances for each configuration file. Each instance listed in this document is a Progressive Web Application. The system generates dedicated [manifest.json](https://developer.mozilla.org/en-US/docs/Web/Manifest) for each of them. 
 
 This implementations.json document includes a `towns` array with objects that will identify every implementation. For instance:
   
@@ -498,9 +498,9 @@ The heritagein.info app implements [language negotiation](https://www.w3.org/Int
 * [Middelheim Museum](https://pbest.eu/cultural-heritage-quick-app/be/antwerpen/middelheimmuseum/data.json). Open-air musseum in Antwerpen (🇩🇪). [See result](https://heritagein.info/middelheim/).
 * [Eckernförde Heritage](https://pbest.eu/cultural-heritage-quick-app/de/eckernforde/). Historical buildings in Eckernförde 🇩🇪. [See result](https://heritagein.info/eckernforde/).
 
-Share yours! We are collecting all [the existing implementations in machine-readable format](https://github.com/pbesteu/poi-quick-app/blob/main/docs/implementations.json). This will help the tools to produce new Web applications based on your database. 
+Share yours! We are collecting all [the existing implementations in machine-readable format](https://github.com/ow2-quick-app-initiative/poi-quick-app/blob/main/docs/implementations.json). This will help the tools to produce new Web applications based on your database. 
 
-Just update the file or [send us the information](https://github.com/pbesteu/poi-quick-app/issues/new) about what you have done.
+Just update the file or [send us the information](https://github.com/ow2-quick-app-initiative/poi-quick-app/issues/new) about what you have done.
 
 ## <a name='License'></a>License
 
@@ -512,7 +512,7 @@ All other code in this repository is licensed under the [MIT license](./LICENSE-
 
 These apps are based on open data and automatic processing of the data. The community's content is enriched and curated, so it's available to anyone who wants to get involved. Local experts are welcome to refine the definitions, names, and pictures and add new points of interest to the app.
 
-The app doesn't collect any personal data. The quick app may perform a call to a [Matomo instance](https://en.wikipedia.org/wiki/Matomo_(software)) to measure its performance, but no personal data is shared. You can just [check the code](https://github.com/pbesteu/poi-quick-app/blob/0e30a81f203796156ecb29b30437fb18f9f83309/quick-app/src/app.ux#L222) that generates a random identifier.  
+The app doesn't collect any personal data. The quick app may perform a call to a [Matomo instance](https://en.wikipedia.org/wiki/Matomo_(software)) to measure its performance, but no personal data is shared. You can just [check the code](https://github.com/ow2-quick-app-initiative/poi-quick-app/blob/0e30a81f203796156ecb29b30437fb18f9f83309/quick-app/src/app.ux#L222) that generates a random identifier.  
 
 ## <a name='Getinvolved'></a>Get involved
 
@@ -528,9 +528,9 @@ This project aims to be as much collaborative as possible, so we will be pleased
 
 If you are familiar with Github, just fork the repository and push your contributions. 
 
-The code of the quick app is in the [`/quick-app`](https://github.com/pbesteu/poi-quick-app/tree/main/quick-app) folder of the repository. The web application is in the [heritage-quick-app-web repository](https://github.com/pbesteu/heritage-quick-app-web).
+The code of the quick app is in the [`/quick-app`](https://github.com/ow2-quick-app-initiative/poi-quick-app/tree/main/quick-app) folder of the repository. The web application is in the [heritage-quick-app-web repository](https://github.com/pbesteu/heritage-quick-app-web).
 
-If you don´t know how to start, please login to Github and [raise an issue with your intentions and suggestions](https://github.com/pbesteu/poi-quick-app/issues/new).
+If you don´t know how to start, please login to Github and [raise an issue with your intentions and suggestions](https://github.com/ow2-quick-app-initiative/poi-quick-app/issues/new).
 
 Thank you!
 
