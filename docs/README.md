@@ -138,7 +138,7 @@ Please, use the identifier of the point of interest you are referring to (see at
 
 The database is in the JSON file named `data.json` (`/sample/data.json`). Initially, you have an empty file you can use to quick start the project.
 
-Please be sure that this document has the correct format (syntax and content). You can test it locally using any JSON schema validation tool against the JSON schema you can find in the repository ([schema.json](https://pbesteu.github.io/poi-quick-app/sample/schema.json)). 
+Please be sure that this document has the correct format (syntax and content). You can test it locally using any JSON schema validation tool against the JSON schema you can find in the repository ([schema.json](https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/schema.json)). 
 
 This JSON document contains two main parts, represented by the main keys of the root object:
 
@@ -156,7 +156,7 @@ Example of a project named `fr/paris` for the City of Paris:
         "app_title": "Paris Street Heritage",
         "version": 12,
         "updated": "2022-10-26",
-        "source_url": "https://pbesteu.github.io/poi-quick-app/fr/paris/data.json",
+        "source_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app/fr/paris/data.json",
         "matomo_base_url": "https://example.org/my-matomo-instance?id=1",                
         "marketplace_url": "https://appgallery.huawei.com/app/FinalURL"
     },
@@ -228,7 +228,7 @@ The content language tags are objects with the following structure:
                 "text_info": "This project was created by...",
                 "text_acknowledge": "We would like to thanks...",
                 "text_feedback": "Please let us know if you want to contribute...",
-                "feedback_url": "https://pbesteu.github.io/poi-quick-app/fr/paris/#contributors",
+                "feedback_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app/fr/paris/#contributors",
                 "issue_url": "https://github.com/ow2-quick-app-initiative/poi-quick-app/issues/new?labels=fr/paris"
             },
             "pois": [
@@ -239,8 +239,8 @@ The content language tags are objects with the following structure:
                     "type": "tower",
                     "name": "Eiffel Tower",
                     "images": [
-                        "https://pbesteu.github.io/poi-quick-app/fr/paris/images/eiffeltower_1.jpg",
-                        "https://pbesteu.github.io/poi-quick-app/fr/paris/images/eiffeltower_2.jpg"
+                        "https://ow2-quick-app-initiative.github.io/poi-quick-app/fr/paris/images/eiffeltower_1.jpg",
+                        "https://ow2-quick-app-initiative.github.io/poi-quick-app/fr/paris/images/eiffeltower_2.jpg"
                     ],
                     "description": "The Tour Eiffel (French) is a iron lattice tower, named after the engineer Gustave Eiffel, whose company designed and built the tower",
                     "more": "Locally nicknamed La dame de fer (French for Iron Lady), it was constructed from 1887 to 1889 as the centerpiece of the 1889 World's Fair and was initially criticized by some of France's leading artists and intellectuals for its design, but it has become a global cultural icon of France and one of the most recognizable structures in the world",
