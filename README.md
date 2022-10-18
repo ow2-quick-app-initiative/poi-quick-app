@@ -138,7 +138,7 @@ Please, use the identifier of the point of interest you are referring to (see at
 
 The database is in the JSON file named `data.json` (`/sample/data.json`). Initially, you have an empty file you can use to quick start the project.
 
-Please be sure that this document has the correct format (syntax and content). You can test it locally using any JSON schema validation tool against the JSON schema you can find in the repository ([schema.json](https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/schema.json)). 
+Please be sure that this document has the correct format (syntax and content). You can test it locally using any JSON schema validation tool against the JSON schema you can find in the repository ([schema.json](https://ow2-quick-app-initiative.github.io/poi-quick-app/schema.json)). 
 
 This JSON document contains two main parts, represented by the main keys of the root object:
 
