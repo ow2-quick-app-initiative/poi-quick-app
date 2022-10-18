@@ -300,7 +300,7 @@ The data, almost perfect and distributed in Comma Separated Value (CSV) format, 
 
 This is just an example, but it shows how powerful and productive these tools may be for simple projects.  
 
-Read the illustrative [step-by-step guide on how the Brussels Comic Book Route project was created](https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/be/brussels/comics//step_by_step_development_guide.pdf).
+Read the illustrative [step-by-step guide on how the Brussels Comic Book Route project was created](https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/be/brussels/comics/step_by_step_development_guide.pdf).
 
 ### <a name='Step3.publishthedatabase'></a>Step 3. publish the database
 
