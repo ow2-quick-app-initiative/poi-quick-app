@@ -6,7 +6,7 @@
       "name": "LVN Street Heritage",
       "id": "leuven",
       "location": "Leuven (🇧🇪)",
-      "source_url": "https://pbesteu.github.io/cultural-heritage-quick-app/be/leuven/data.json",
+      "source_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/be/leuven/data.json",
       "country": "Belgium",
       "lang": [ "en" ]
     },
@@ -14,7 +14,7 @@
       "name": "BXL Comic Book Route",
       "id": "comics",
       "location": "Brussels (🇧🇪)",
-      "source_url": "https://pbesteu.github.io/comic-book-route-quick-app/bxl/data.json",
+      "source_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/be/brussels/comics/data.json",
       "country": "Belgium",
       "lang": [ "en" ]
     },
@@ -22,7 +22,7 @@
       "name": "Antwerpen Middelheimmuseum",
       "id": "middelheim",
       "location": "Antwerpen (🇧🇪)",
-      "source_url": "https://pbest.eu/cultural-heritage-quick-app/be/antwerpen/middelheimmuseum/data.json",
+      "source_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/be/antwerpen/middelheimmuseum/data.json",
       "country": "Belgium",
       "lang": [ "en" ]
     },
@@ -30,7 +30,7 @@
       "name": "Eckernförde Street Heritage",
       "id": "eckernforde",
       "location": "Eckernförde (🇩🇪)",
-      "source_url": "https://pbesteu.github.io/cultural-heritage-quick-app/de/eckernforde/data.json",
+      "source_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/de/eckernforde/data.json",
       "country": "Germany",
       "lang": [ "en", "de" ]
     },
@@ -38,7 +38,7 @@
       "name": "Oeratoom (Primeval Atom)",
       "id": "oeratoom",
       "location": "Leuven (🇧🇪)",
-      "source_url": "https://pbest.eu/oeratoom-leuven-quick-app/oeratoom/data.json",
+      "source_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/be/leuven/oeratoom/data.json",
       "country": "Belgium",
       "lang": [ "en" ]
     },
@@ -46,7 +46,7 @@
       "name": "Barcelona Beaches",
       "id": "barcelona",
       "location": "Barcelona (🇪🇸)",
-      "source_url": "https://pbest.eu/cultural-heritage-quick-app/es/barcelona/beach/data.json",
+      "source_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/es/barcelona/beach/data.json",
       "country": "Spain",
       "lang": [ "en", "ca" ]
     },
@@ -54,7 +54,7 @@
       "name": "Amsterdam Historic Buildings",
       "id": "amsterdam",
       "location": "Amsterdam (🇳🇱)",
-      "source_url": "https://pbest.eu/cultural-heritage-quick-app/nl/amsterdam/data.json",
+      "source_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/nl/amsterdam/data.json",
       "country": "Netherlands",
       "lang": [ "en" ]
     }

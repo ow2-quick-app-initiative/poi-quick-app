@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema",
-    "$id": "https://pbesteu.github.io/cultural-heritage-quick-app/schema.json",
+    "$id": "https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/schema.json",
     "title": "Schema of the config and database file",
     "type": "object",
     "default": {},
@@ -70,7 +70,7 @@
                     "pattern": "^(http|https)://.+$",
                     "default": "",
                     "examples": [
-                        "https://pbesteu.github.io/cultural-heritage-quick-app/be/leuven/data.json"
+                        "https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/be/leuven/data.json"
                     ]
                 },
                 "matomo_base_url": {
@@ -183,7 +183,7 @@
                                     "pattern": "^(http|https)://.+$",
                                     "default": "",
                                     "examples": [
-                                        "https://pbesteu.github.io/cultural-heritage-quick-app/be/leuven/#contributors"
+                                        "https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/be/leuven/#contributors"
                                     ]
                                 },
                                 "issue_url": {
@@ -289,9 +289,9 @@
                                             "type": "string",                     
                                             "pattern": "^(http|https)://.+$",
                                             "examples": [
-                                                "https://pbesteu.github.io/cultural-heritage-quick-app/be/leuven/images/60men.jpg",
-                                                "https://pbesteu.github.io/cultural-heritage-quick-app/be/leuven/images/60men_2.jpg",
-                                                "https://pbesteu.github.io/cultural-heritage-quick-app/be/leuven/images/abraham.jpg"
+                                                "https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/be/leuven/images/60men.jpg",
+                                                "https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/be/leuven/images/60men_2.jpg",
+                                                "https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/be/leuven/images/abraham.jpg"
                                             ]
                                         }
                                     },
