@@ -294,7 +294,7 @@ The PoIs are the main items of the database, described in the `poi` attribute as
 
 #### <a name='RealexampleusingOpenDataandLinkedData'></a>Real example using Open Data and Linked Data
 
-The [Brussels Comic Book Route Quick App](https://github.com/ow2-quick-app-initiative/poi-quick-app-implementations/tree/main/quick-app/bxl_comics) was made through this methodology and templates. The database is based on a dataset by the [BXL Open Data](https://opendata.brussels.be/page/home/) initiative.
+The [Brussels Comic Book Route Quick App](https://github.com/ow2-quick-app-initiative/poi-quick-app-implementations/tree/main/quick-app/be/brussels/comics) was made through this methodology and templates. The database is based on a dataset by the [BXL Open Data](https://opendata.brussels.be/page/home/) initiative.
 
 The data, almost perfect and distributed in Comma Separated Value (CSV) format, was curated using [OpenRefine](https://openrefine.org/). Subsequently, the database was enriched with external sources like [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page) through __linked data__.  
 
