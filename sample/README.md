@@ -202,7 +202,7 @@ The PoIs are the main items of the database, described in the `poi` attribute as
 
 By default, any user's feedback is handled through GitHub issues. In order to facilitate the moderation, issues will be classified using tags to indicate the project whose belong to. The title of the issues should contain the same name or identifier of the point of interest to avoid misunderstandings.   
 
-You also can create an issue template to have homogeneous format (see [.github/ISSUE_TEMPLATE/update_request.md](../.github/ISSUE_TEMPLATE/update_request.md)) and use it for new issues. 
+You also can create an issue template to have homogeneous format (see [.github/ISSUE_TEMPLATE/update_request.md](https://github.com/ow2-quick-app-initiative/poi-quick-app/.github/ISSUE_TEMPLATE/update_request.md)) and use it for new issues. 
 
 In the [app configuration](#app-configuration) we configure the template URL for the issues for the project. If you want to handle issues by language, you can specify different tags or templates according to your needs. 
 
