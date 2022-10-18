@@ -28,8 +28,8 @@
                     "type": "statue",
                     "name": "My Statue",
                     "images": [
-                        "https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/be/leuven/images/astrolabe.jpg",
-                        "https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/be/leuven/images/astrolabe_2.jpg"
+                        "https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/be/leuven/heritage/images/astrolabe.jpg",
+                        "https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/be/leuven/heritage/images/astrolabe_2.jpg"
                     ],
                     "description": "One-paragraph description",
                     "more": "More description, if you want",
@@ -45,8 +45,8 @@
                     "type": "statue",
                     "name": "My Asset",
                     "images": [
-                        "https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/be/leuven/images/kartuizerpomp.jpg",
-                        "https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/be/leuven/images/kartuizerpomp_2.jpg"
+                        "https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/be/leuven/heritage/images/kartuizerpomp.jpg",
+                        "https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/be/leuven/heritage/images/kartuizerpomp_2.jpg"
                     ],
                     "description": "One-paragraph description",
                     "more": "More description, if you want",

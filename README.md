@@ -492,7 +492,7 @@ The heritagein.info app implements [language negotiation](https://www.w3.org/Int
 
 #### <a name='Examplesofimplementations'></a>Examples of implementations
 
-* [Leuven Cultural Heritage](https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/). Historical places and monuments in Leuven 🇧🇪. [See result](https://heritagein.info/leuven/).
+* [Leuven Cultural Heritage](https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/be/leuven/heritage/). Historical places and monuments in Leuven 🇧🇪. [See result](https://heritagein.info/leuven/).
 * [Oeratoom](https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/be/leuven/oeratoom/). Big Bang Theory artwork in Leuven (🇧🇪). [See result](https://heritagein.info/oeratoom/).
 * [Comic Book Route](https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/be/brussels/comics//). Wall paintings in Brussels (🇧🇪). [See result](https://heritagein.info/comics/).
 * [Middelheim Museum](https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/be/antwerpen/middelheimmuseum/data.json). Open-air musseum in Antwerpen (🇩🇪). [See result](https://heritagein.info/middelheim/).
