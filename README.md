@@ -504,9 +504,9 @@ Just update the file or [send us the information](https://github.com/ow2-quick-a
 
 ## <a name='License'></a>License
 
-This project's documentation, content, and data folders are licensed under a [CC-BY license](./LICENSE).
+This project's documentation, content, and data folders are licensed under a [CC-BY license](https://github.com/ow2-quick-app-initiative/poi-quick-app/blob/main/LICENSE).
 
-All other code in this repository is licensed under the [MIT license](./LICENSE-CODE).
+All other code in this repository is licensed under the [MIT license](https://github.com/ow2-quick-app-initiative/poi-quick-app/blob/main/LICENSE-CODE).
 
 ## <a name='Privacy'></a>Privacy
 
