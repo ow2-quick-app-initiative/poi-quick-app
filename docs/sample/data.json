@@ -4,7 +4,7 @@
         "app_title": "City Street Heritage",
         "version": 1,
         "updated": "2022-09-26",
-        "source_url": "https://pbesteu.github.io/poi-quick-app/sample/data.json",
+        "source_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/data.json",
         "matomo_base_url": "https://matomo.pbest.me/matomo.php?idsite=1&rec=1",        
         "marketplace_url": ""
     },
@@ -19,7 +19,7 @@
                 "text_info": "This app is created by locals and experts. As you can see, it's also free of charge. Please let us know if you want to contribute with your experience, enrich the content, correct inaccuracies, or submit pictures.",
                 "text_acknowledge": "This quick app is an open-source project powered by open data and enriched by the community. Most of the information was extracted from Wikidata, OpenStreetMaps, and other public sources. You can find inaccuracies, so we apologize in advance.",
                 "text_feedback": "Please let us know if you want to contribute with your experience, enrich the content, correct inaccuracies, or submit pictures. This app is created by locals and experts.",
-                "feedback_url": "https://pbesteu.github.io/poi-quick-app/sample/#get-involved",
+                "feedback_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/#get-involved",
                 "issue_url": "https://github.com/ow2-quick-app-initiative/poi-quick-app/issues/new?labels=country/city&template=update_request.md&title=Update+Request"
             },
             "pois": [{
@@ -29,8 +29,8 @@
                     "type": "statue",
                     "name": "My Statue",
                     "images": [
-                        "https://pbesteu.github.io/poi-quick-app/sample/images/uniqueID_1.jpg",
-                        "https://pbesteu.github.io/poi-quick-app/sample/images/uniqueID_2.jpg"
+                        "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/images/uniqueID_1.jpg",
+                        "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/images/uniqueID_2.jpg"
                     ],
                     "description": "One-paragraph description",
                     "more": "More description, if you want",
@@ -46,8 +46,8 @@
                     "type": "statue",
                     "name": "My Statue",
                     "images": [
-                        "https://pbesteu.github.io/poi-quick-app/sample/images/uniqueID2_1.jpg",
-                        "https://pbesteu.github.io/poi-quick-app/sample/images/uniqueID2_2.jpg"
+                        "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/images/uniqueID2_1.jpg",
+                        "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/images/uniqueID2_2.jpg"
                     ],
                     "description": "One-paragraph description",
                     "more": "More description, if you want",
