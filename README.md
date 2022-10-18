@@ -138,7 +138,7 @@ Please, use the identifier of the point of interest you are referring to (see at
 
 The database is in the JSON file named `data.json` (`/sample/data.json`). Initially, you have an empty file you can use to quick start the project.
 
-Please be sure that this document has the correct format (syntax and content). You can test it locally using any JSON schema validation tool against the JSON schema you can find in the repository ([schema.json](https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/schema.json)). 
+Please be sure that this document has the correct format (syntax and content). You can test it locally using any JSON schema validation tool against the JSON schema you can find in the repository ([schema.json](https://ow2-quick-app-initiative.github.io/poi-quick-app/schema.json)). 
 
 This JSON document contains two main parts, represented by the main keys of the root object:
 
@@ -294,7 +294,7 @@ The PoIs are the main items of the database, described in the `poi` attribute as
 
 #### <a name='RealexampleusingOpenDataandLinkedData'></a>Real example using Open Data and Linked Data
 
-The [Brussels Comic Book Route Quick App](https://github.com/ow2-quick-app-initiative/poi-quick-app-implementations/tree/main/quick-app/bxl_comics) was made through this methodology and templates. The database is based on a dataset by the [BXL Open Data](https://opendata.brussels.be/page/home/) initiative.
+The [Brussels Comic Book Route Quick App](https://github.com/ow2-quick-app-initiative/poi-quick-app-implementations/tree/main/quick-app/be/brussels/comics) was made through this methodology and templates. The database is based on a dataset by the [BXL Open Data](https://opendata.brussels.be/page/home/) initiative.
 
 The data, almost perfect and distributed in Comma Separated Value (CSV) format, was curated using [OpenRefine](https://openrefine.org/). Subsequently, the database was enriched with external sources like [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page) through __linked data__.  
 
