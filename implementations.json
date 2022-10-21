@@ -27,14 +27,6 @@
       "lang": [ "en" ]
     },
     { 
-      "name": "Eckernförde Street Heritage",
-      "id": "eckernforde",
-      "location": "Eckernförde (🇩🇪)",
-      "source_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/de/eckernforde/data.json",
-      "country": "Germany",
-      "lang": [ "en", "de" ]
-    },
-    { 
       "name": "Oeratoom (Primeval Atom)",
       "id": "oeratoom",
       "location": "Leuven (🇧🇪)",
@@ -57,6 +49,22 @@
       "source_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/nl/amsterdam/data.json",
       "country": "Netherlands",
       "lang": [ "en" ]
-    }
+    },
+    { 
+      "name": "Illustrious Parisian Women",
+      "id": "women",
+      "location": "Paris (🇫🇷)",
+      "source_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/fr/paris/women/data.json",
+      "country": "France",
+      "lang": [ "en", "fr" ]
+    },
+    { 
+      "name": "Monumental Trees in Paris",
+      "id": "trees",
+      "location": "Paris (🇫🇷)",
+      "source_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/fr/paris/trees/data.json",
+      "country": "France",
+      "lang": [ "en", "fr" ]
+    }        
   ]
 }
