@@ -328,7 +328,7 @@
                                         "items": {
                                             "title": "URL to the external website",
                                             "type": "string",                     
-                                            "pattern": "^(http|https)://.+$",
+                                            "pattern": "^(http|https|tel|mailto):/?/?.+$",
                                             "examples": [
                                                 "https://nl.wikipedia.org/wiki/De_Kotmadam_(Leuven)",
                                                 "https://nl.wikipedia.org/wiki/Paep_Thoon"
