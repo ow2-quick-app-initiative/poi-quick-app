@@ -51,6 +51,14 @@
       "lang": [ "en" ]
     },
     { 
+      "name": "Paris Heritage",
+      "id": "paris",
+      "location": "Paris (🇫🇷)",
+      "source_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/fr/paris/heritage/data.json",
+      "country": "France",
+      "lang": [ "en", "fr" ]
+    },
+    { 
       "name": "Illustrious Parisian Women",
       "id": "women",
       "location": "Paris (🇫🇷)",
