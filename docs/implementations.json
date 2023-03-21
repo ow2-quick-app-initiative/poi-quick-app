@@ -51,7 +51,7 @@
       "lang": [ "en" ]
     },
     { 
-      "name": "Paris Heritage",
+      "name": "Paris Cultural Heritage",
       "id": "paris",
       "location": "Paris (🇫🇷)",
       "source_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/fr/paris/heritage/data.json",
@@ -73,6 +73,14 @@
       "source_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/fr/paris/trees/data.json",
       "country": "France",
       "lang": [ "en", "fr" ]
-    }        
+    },
+    { 
+      "name": "Make a Green Day! (Saint Patrick's Day)",
+      "id": "greenday",
+      "location": "Ireland (🇮🇪)",
+      "source_url": "https://raw.githubusercontent.com/coral2742/Quick-app/main/docs/verdePorUnDia/data.json",
+      "country": "Ireland",
+      "lang": [ "en" ]
+    }
   ]
 }
