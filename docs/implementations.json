@@ -81,6 +81,22 @@
       "source_url": "https://raw.githubusercontent.com/coral2742/Quick-app/main/docs/verdePorUnDia/data.json",
       "country": "Ireland",
       "lang": [ "en" ]
+    },
+    { 
+      "name": "Best of Kerkyra",
+      "id": "corfu",
+      "location": "Corfu (🇬🇷)",
+      "source_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/gr/corfu/data.json",
+      "country": "Greece",
+      "lang": [ "en" ]
+    },
+    { 
+      "name": "Best of Kos",
+      "id": "kos",
+      "location": "Kos (🇬🇷)",
+      "source_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/gr/kos/data.json",
+      "country": "Greece",
+      "lang": [ "en" ]
     }
   ]
 }
