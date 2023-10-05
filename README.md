@@ -1,3 +1,7 @@
+# ⚠ This repo has moved
+
+It now lives at https://github.com/OW2-MiniApp-Initiative/poi-miniapp.
+
 # _Heritage in…_ Quick App Project
 
 The _Heritage in…_ Quick App project provides a methodology and a set of tools for towns to promote their most precious assets, enabling citizens and institutions to launch new projects focused on local art, culture, history, nature, or whatever is engaging in a place. 
